@@ -1,0 +1,5 @@
+const manage = () => {
+  //
+}
+
+export { manage }

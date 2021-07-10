@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <a href="#"><span class="material-icons-outlined">
+checklist_rtl
+</span> ToDo List</a>
+      </div>
+      <div id="navbar-links">
+        <a class='newTaskButton' href="#">New task <span class="material-icons-outlined">
+add_circle_outline
+</span></a>
+        <a class='navlink' id="settings" href="#"><span class="material-icons-outlined">
+settings
+</span></a>
+      </div>
+    </nav>
+    <div id='mainContent'>
+      <aside>
+        <section id='sideMenuTop'>
+          <ul>
+            <li><a class='sidelink' id="today" href="#"><span class="material-icons-outlined">
+  today
+  </span> Today</a></li>
+            <li><a class='sidelink' id="week" href="#"><span class="material-icons-outlined">
+  date_range
+  </span> This Week</a></li>
+            <li><a class='sidelink' id="all" href="#"><span class="material-icons-outlined">
+  list_alt
+  </span> All</a></li>
+            <li><a class='sidelink' id="important" href="#"><span class="material-icons-outlined">
+  error_outline
+  </span> Important</a></li>
+          </ul>
+        </section>
+        <section id='projects'>
+          <h3>Projects</h3>
+          <ul>
+            <li><a class='sidelink' id="default" href="#">Default</a></li>
+            <li><a class='sidelink' id="newProjectButton" href="#">New project <span class="material-icons-outlined">
+  add_circle_outline
+</span></a></li>
+          </ul>
+        </section>
+      </aside>
+      <div id="content"></div>
+    </div>
+    <footer>Created by <a href="https://github.com/stanochka"><span id='githubLogo'></span> stanochka</a></footer>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
