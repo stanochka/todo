@@ -585,7 +585,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_GitHub_Mark_32px_png__WEBPACK_IMPORTED_MODULE_2__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n  font-family: 'Inconsolata';\n}\n\nnav {\n  position: fixed;\n  top: 0;\n  height: 50px;\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  background-color: #F03C5D;\n  padding: 10px;\n  z-index: 2;\n}\n\nnav a {\n  text-decoration: none;\n  color: white;\n  padding: 10px;\n}\n\nnav span {\n  vertical-align: middle;\n}\n\n#logo {\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1.3em;\n}\n\n#mainContent {\n  margin-top: 50px;\n  display: flex;\n}\n\naside {\n  width: 200px;\n  border-right: 1px #CCCCCC solid;\n  font-size: 1.2em;\n  padding-left: 20px;\n}\n\naside ul {\n  padding: 0 0 15px 0;\n}\n\naside li {\n  list-style-type: none;\n  padding: 5px;\n}\n\naside a {\n  text-decoration: none;\n  color: black;\n}\n\naside span {\n  vertical-align: middle;\n}\n\n#content {\n  padding: 10px 20px;\n  margin-left: 20px;\n  width: calc(100vw - 200px);\n  min-height: calc(100vh - 50px);\n}\n\n#content button {\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n}\n\n#content button:hover {\n  cursor: pointer;\n}\n\n#content button:active {\n  transform: scale(.98);\n}\n\n#content .material-icons-outlined {\n  vertical-align: middle;\n}\n\nfooter {\n  background: #CCCCCC;\n  height: 50px;\n  width: 100%;\n  padding: 15px;\n  text-align: center;\n  font-size: .8em;\n}\n\nfooter a {\n  text-decoration: none;\n  color: black;\n}\n\nfooter span {\n  vertical-align: top;\n}\n\n#githubLogo {\n  height: 14px;\n  width: 14px;\n  display: inline-block;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n  font-family: 'Inconsolata';\n}\n\nnav {\n  position: fixed;\n  top: 0;\n  height: 50px;\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  background-color: #F03C5D;\n  padding: 10px;\n  z-index: 2;\n}\n\nnav a {\n  text-decoration: none;\n  color: white;\n  padding: 10px;\n}\n\nnav span {\n  vertical-align: middle;\n}\n\n#logo {\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1.3em;\n}\n\n#mainContent {\n  margin-top: 50px;\n  display: flex;\n}\n\naside {\n  width: 200px;\n  border-right: 1px #CCCCCC solid;\n  font-size: 1.2em;\n  padding-left: 20px;\n}\n\naside ul {\n  padding: 0 0 15px 0;\n}\n\naside li {\n  list-style-type: none;\n  height: 40px;\n}\n\naside a {\n  text-decoration: none;\n  color: black;\n}\n\naside span {\n  vertical-align: middle;\n}\n\n#content {\n  padding: 10px 20px;\n  margin-left: 20px;\n  width: calc(100vw - 200px);\n  min-height: calc(100vh - 50px);\n}\n\n#content button {\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n}\n\n#content button:hover {\n  cursor: pointer;\n}\n\n#content button:active {\n  transform: scale(.98);\n}\n\n#content .material-icons-outlined {\n  vertical-align: middle;\n}\n\n#content ul {\n  margin-left: 0;\n  padding-left: 0;\n}\n\n#content li {\n  list-style-type: none;\n  padding-top: 10px;\n}\n\nfooter {\n  background: #CCCCCC;\n  height: 50px;\n  width: 100%;\n  padding: 15px;\n  text-align: center;\n  font-size: .8em;\n}\n\nfooter a {\n  text-decoration: none;\n  color: black;\n}\n\nfooter span {\n  vertical-align: top;\n}\n\n#githubLogo {\n  height: 14px;\n  width: 14px;\n  display: inline-block;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n}\n\n.modal {\n  display: none;\n  position: absolute;\n  top: 20vh;\n  left: calc((100vw - 50vh)/2);\n  height: 50vh;\n  width: 50vh;\n  background: white;\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\n  border: 1px solid;\n  z-index: 3;\n}\n\n.modalContent {\n  width: 100%;\n  height: 100%;\n  position: relative;\n\n}\n\n.closeModal {\n  position: absolute;\n  right: 5px;\n  top: 5px;\n}\n\n#newTaskForm {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n\n#newProjectForm {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n\ninput[type=text], input[type=date], input[type=checkbox] {\n  background: #CCCCCC;\n  color: black;\n  border: 0;\n  padding: 10px;\n  margin: 10px;\n}\n\ninput[type=submit] {\n  margin: 10px;\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n}\n\ninput::placeholder {\n  color: black;\n  font-size: .9em;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -602,9 +602,103 @@ module.exports = __webpack_require__.p + "0035c307a36c17babb8d.png";
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "manage": () => (/* binding */ manage)
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "renderProjectsMenu": () => (/* binding */ renderProjectsMenu),
+/* harmony export */   "renderNewTask": () => (/* binding */ renderNewTask),
+/* harmony export */   "renderNewProject": () => (/* binding */ renderNewProject)
 /* harmony export */ });
-const manage = () => {
+/* harmony import */ var _application_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
+
+
+const render = (link) => {
+  const content = document.querySelector('#content');
+
+  while (content.childElementCount) content.lastChild.remove();
+
+  const headings = { today: 'Today tasks',
+                     week: 'This week tasks',
+                     all: 'All tasks',
+                     important: 'Important tasks' }
+
+  const funcs = { today: _application_js__WEBPACK_IMPORTED_MODULE_0__.todayTasks,
+                  week: _application_js__WEBPACK_IMPORTED_MODULE_0__.weekTasks,
+                  all: _application_js__WEBPACK_IMPORTED_MODULE_0__.allTasks,
+                  important: _application_js__WEBPACK_IMPORTED_MODULE_0__.importantTasks }
+
+  var h1 = document.createElement('h1');
+  h1.textContent = headings[link];
+  content.appendChild(h1);
+
+
+  var ul = document.createElement('ul');
+  var tasks = funcs[link]();
+  if (tasks.length>0) {
+    tasks.forEach(task => {
+    let li = document.createElement('li');
+    li.textContent = `${task.title} due to ${task.dueDate.toDateString()}`;
+    ul.appendChild(li);
+  })
+  }
+  content.appendChild(ul);
+
+  var b = document.createElement('button');
+  b.classList.add('newTaskButton');
+  b.innerHTML = 'New task <span class="material-icons-outlined">add_circle_outline</span>';
+  content.appendChild(b);
+
+  b.addEventListener('click', () => renderNewTask());
+}
+
+const renderProject = (id) => {
+  const content = document.querySelector('#content');
+  while (content.childElementCount) content.lastChild.remove();
+  var name = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects()[+id.match(/\d+/)]
+
+  var h1 = document.createElement('h1');
+  h1.textContent = name;
+  content.appendChild(h1);
+
+  var ul = document.createElement('ul');
+  var tasks = _application_js__WEBPACK_IMPORTED_MODULE_0__.projectTasks(name);
+  if (tasks.length>0) {
+    tasks.forEach(task => {
+    let li = document.createElement('li');
+    li.textContent = `${task.title} due to ${task.dueDate.toDateString()}`;
+    ul.appendChild(li);
+  })
+  }
+  content.appendChild(ul);
+
+  var b = document.createElement('button');
+  b.classList.add('newTaskButton');
+  b.innerHTML = 'New task <span class="material-icons-outlined">add_circle_outline</span>';
+  content.appendChild(b);
+
+  b.addEventListener('click', () => renderNewTask());
+}
+
+const renderProjectsMenu = () => {
+  const projectList = document.querySelector('#projectList');
+  //while (projectList.childElementCount) content.lastChild.remove();
+  var projects = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects();
+  projects.forEach((project, i) => {
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    a.classList.add('project');
+    a.textContent = project;
+    a.id = `project${i}`;
+    a.href = '#';
+    li.appendChild(a);
+    projectList.appendChild(li);
+    a.addEventListener('click', () => renderProject(a.id));
+  })
+}
+
+const renderNewTask = () => {
+  //
+}
+
+const renderNewProject = () => {
   //
 }
 
@@ -612,29 +706,499 @@ const manage = () => {
 
 
 /***/ }),
-/* 23 */
+/* 23 */,
+/* 24 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */   "default": () => (/* binding */ isToday)
 /* harmony export */ });
-const render = () => {
-  const content = document.querySelector('#content');
+/* harmony import */ var _isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(26);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
 
-  let h1 = document.createElement('h1');
-  h1.textContent = 'Tasks';
-  content.appendChild(h1);
 
-  //TODO: insert list of tasks rendering
+/**
+ * @name isToday
+ * @category Day Helpers
+ * @summary Is the given date today?
+ * @pure false
+ *
+ * @description
+ * Is the given date today?
+ *
+ * > ⚠️ Please note that this function is not present in the FP submodule as
+ * > it uses `Date.now()` internally hence impure and can't be safely curried.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the date to check
+ * @returns {Boolean} the date is today
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // If today is 6 October 2014, is 6 October 14:00:00 today?
+ * var result = isToday(new Date(2014, 9, 6, 14, 0))
+ * //=> true
+ */
 
-  let b = document.createElement('button');
-  b.classList.add('newTaskButton');
-  b.innerHTML = 'New task <span class="material-icons-outlined">add_circle_outline</span>';
-  content.appendChild(b);
+function isToday(dirtyDate) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  return (0,_isSameDay_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate, Date.now());
 }
 
+/***/ }),
+/* 25 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ requiredArgs)
+/* harmony export */ });
+function requiredArgs(required, args) {
+  if (args.length < required) {
+    throw new TypeError(required + ' argument' + (required > 1 ? 's' : '') + ' required, but only ' + args.length + ' present');
+  }
+}
+
+/***/ }),
+/* 26 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isSameDay)
+/* harmony export */ });
+/* harmony import */ var _startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(27);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+/**
+ * @name isSameDay
+ * @category Day Helpers
+ * @summary Are the given dates in the same day?
+ *
+ * @description
+ * Are the given dates in the same day?
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} dateLeft - the first date to check
+ * @param {Date|Number} dateRight - the second date to check
+ * @returns {Boolean} the dates are in the same day
+ * @throws {TypeError} 2 arguments required
+ *
+ * @example
+ * // Are 4 September 06:00:00 and 4 September 18:00:00 in the same day?
+ * var result = isSameDay(new Date(2014, 8, 4, 6, 0), new Date(2014, 8, 4, 18, 0))
+ * //=> true
+ */
+
+function isSameDay(dirtyDateLeft, dirtyDateRight) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(2, arguments);
+  var dateLeftStartOfDay = (0,_startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateLeft);
+  var dateRightStartOfDay = (0,_startOfDay_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateRight);
+  return dateLeftStartOfDay.getTime() === dateRightStartOfDay.getTime();
+}
+
+/***/ }),
+/* 27 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ startOfDay)
+/* harmony export */ });
+/* harmony import */ var _toDate_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(28);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+/**
+ * @name startOfDay
+ * @category Day Helpers
+ * @summary Return the start of a day for the given date.
+ *
+ * @description
+ * Return the start of a day for the given date.
+ * The result will be in the local timezone.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the original date
+ * @returns {Date} the start of a day
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // The start of a day for 2 September 2014 11:55:00:
+ * const result = startOfDay(new Date(2014, 8, 2, 11, 55, 0))
+ * //=> Tue Sep 02 2014 00:00:00
+ */
+
+function startOfDay(dirtyDate) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var date = (0,_toDate_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate);
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
+/***/ }),
+/* 28 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ toDate)
+/* harmony export */ });
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+/**
+ * @name toDate
+ * @category Common Helpers
+ * @summary Convert the given argument to an instance of Date.
+ *
+ * @description
+ * Convert the given argument to an instance of Date.
+ *
+ * If the argument is an instance of Date, the function returns its clone.
+ *
+ * If the argument is a number, it is treated as a timestamp.
+ *
+ * If the argument is none of the above, the function returns Invalid Date.
+ *
+ * **Note**: *all* Date arguments passed to any *date-fns* function is processed by `toDate`.
+ *
+ * @param {Date|Number} argument - the value to convert
+ * @returns {Date} the parsed date in the local time zone
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // Clone the date:
+ * const result = toDate(new Date(2014, 1, 11, 11, 30, 30))
+ * //=> Tue Feb 11 2014 11:30:30
+ *
+ * @example
+ * // Convert the timestamp to date:
+ * const result = toDate(1392098430000)
+ * //=> Tue Feb 11 2014 11:30:30
+ */
+
+function toDate(argument) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var argStr = Object.prototype.toString.call(argument); // Clone the date
+
+  if (argument instanceof Date || typeof argument === 'object' && argStr === '[object Date]') {
+    // Prevent the date to lose the milliseconds when passed to new Date() in IE10
+    return new Date(argument.getTime());
+  } else if (typeof argument === 'number' || argStr === '[object Number]') {
+    return new Date(argument);
+  } else {
+    if ((typeof argument === 'string' || argStr === '[object String]') && typeof console !== 'undefined') {
+      // eslint-disable-next-line no-console
+      console.warn("Starting with v2.0.0-beta.1 date-fns doesn't accept strings as date arguments. Please use `parseISO` to parse strings. See: https://git.io/fjule"); // eslint-disable-next-line no-console
+
+      console.warn(new Error().stack);
+    }
+
+    return new Date(NaN);
+  }
+}
+
+/***/ }),
+/* 29 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isThisWeek)
+/* harmony export */ });
+/* harmony import */ var _isSameWeek_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+
+/**
+ * @name isThisWeek
+ * @category Week Helpers
+ * @summary Is the given date in the same week as the current date?
+ * @pure false
+ *
+ * @description
+ * Is the given date in the same week as the current date?
+ *
+ * > ⚠️ Please note that this function is not present in the FP submodule as
+ * > it uses `Date.now()` internally hence impure and can't be safely curried.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the date to check
+ * @param {Object} [options] - the object with options
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @returns {Boolean} the date is in this week
+ * @throws {TypeError} 1 argument required
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ *
+ * @example
+ * // If today is 25 September 2014, is 21 September 2014 in this week?
+ * var result = isThisWeek(new Date(2014, 8, 21))
+ * //=> true
+ *
+ * @example
+ * // If today is 25 September 2014 and week starts with Monday
+ * // is 21 September 2014 in this week?
+ * var result = isThisWeek(new Date(2014, 8, 21), { weekStartsOn: 1 })
+ * //=> false
+ */
+function isThisWeek(dirtyDate, options) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  return (0,_isSameWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate, Date.now(), options);
+}
+
+/***/ }),
+/* 30 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isSameWeek)
+/* harmony export */ });
+/* harmony import */ var _startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+
+/**
+ * @name isSameWeek
+ * @category Week Helpers
+ * @summary Are the given dates in the same week?
+ *
+ * @description
+ * Are the given dates in the same week?
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} dateLeft - the first date to check
+ * @param {Date|Number} dateRight - the second date to check
+ * @param {Object} [options] - an object with options.
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @returns {Boolean} the dates are in the same week
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ *
+ * @example
+ * // Are 31 August 2014 and 4 September 2014 in the same week?
+ * var result = isSameWeek(new Date(2014, 7, 31), new Date(2014, 8, 4))
+ * //=> true
+ *
+ * @example
+ * // If week starts with Monday,
+ * // are 31 August 2014 and 4 September 2014 in the same week?
+ * var result = isSameWeek(new Date(2014, 7, 31), new Date(2014, 8, 4), {
+ *   weekStartsOn: 1
+ * })
+ * //=> false
+ */
+function isSameWeek(dirtyDateLeft, dirtyDateRight, dirtyOptions) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(2, arguments);
+  var dateLeftStartOfWeek = (0,_startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateLeft, dirtyOptions);
+  var dateRightStartOfWeek = (0,_startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateRight, dirtyOptions);
+  return dateLeftStartOfWeek.getTime() === dateRightStartOfWeek.getTime();
+}
+
+/***/ }),
+/* 31 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ startOfWeek)
+/* harmony export */ });
+/* harmony import */ var _toDate_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28);
+/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+
+/**
+ * @name startOfWeek
+ * @category Week Helpers
+ * @summary Return the start of a week for the given date.
+ *
+ * @description
+ * Return the start of a week for the given date.
+ * The result will be in the local timezone.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the original date
+ * @param {Object} [options] - an object with options.
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @returns {Date} the start of a week
+ * @throws {TypeError} 1 argument required
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ *
+ * @example
+ * // The start of a week for 2 September 2014 11:55:00:
+ * const result = startOfWeek(new Date(2014, 8, 2, 11, 55, 0))
+ * //=> Sun Aug 31 2014 00:00:00
+ *
+ * @example
+ * // If the week starts on Monday, the start of the week for 2 September 2014 11:55:00:
+ * const result = startOfWeek(new Date(2014, 8, 2, 11, 55, 0), { weekStartsOn: 1 })
+ * //=> Mon Sep 01 2014 00:00:00
+ */
+
+function startOfWeek(dirtyDate, dirtyOptions) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var options = dirtyOptions || {};
+  var locale = options.locale;
+  var localeWeekStartsOn = locale && locale.options && locale.options.weekStartsOn;
+  var defaultWeekStartsOn = localeWeekStartsOn == null ? 0 : (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(localeWeekStartsOn);
+  var weekStartsOn = options.weekStartsOn == null ? defaultWeekStartsOn : (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(options.weekStartsOn); // Test if weekStartsOn is between 0 and 6 _and_ is not NaN
+
+  if (!(weekStartsOn >= 0 && weekStartsOn <= 6)) {
+    throw new RangeError('weekStartsOn must be between 0 and 6 inclusively');
+  }
+
+  var date = (0,_toDate_index_js__WEBPACK_IMPORTED_MODULE_2__.default)(dirtyDate);
+  var day = date.getDay();
+  var diff = (day < weekStartsOn ? 7 : 0) + day - weekStartsOn;
+  date.setDate(date.getDate() - diff);
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
+/***/ }),
+/* 32 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ toInteger)
+/* harmony export */ });
+function toInteger(dirtyNumber) {
+  if (dirtyNumber === null || dirtyNumber === true || dirtyNumber === false) {
+    return NaN;
+  }
+
+  var number = Number(dirtyNumber);
+
+  if (isNaN(number)) {
+    return number;
+  }
+
+  return number < 0 ? Math.ceil(number) : Math.floor(number);
+}
+
+/***/ }),
+/* 33 */,
+/* 34 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "changeStatus": () => (/* binding */ changeStatus),
+/* harmony export */   "createTask": () => (/* binding */ createTask),
+/* harmony export */   "getTask": () => (/* binding */ getTask),
+/* harmony export */   "updateTask": () => (/* binding */ updateTask),
+/* harmony export */   "deleteTask": () => (/* binding */ deleteTask),
+/* harmony export */   "todayTasks": () => (/* binding */ todayTasks),
+/* harmony export */   "weekTasks": () => (/* binding */ weekTasks),
+/* harmony export */   "allTasks": () => (/* binding */ allTasks),
+/* harmony export */   "importantTasks": () => (/* binding */ importantTasks),
+/* harmony export */   "projectTasks": () => (/* binding */ projectTasks),
+/* harmony export */   "allProjects": () => (/* binding */ allProjects),
+/* harmony export */   "createProject": () => (/* binding */ createProject)
+/* harmony export */ });
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(29);
+
+
+var tasks = [];
+var projects = ['Default'];
+
+function Task(id, title, dueDate, important, project) {
+    this.id = id;
+    this.title = title;
+    this.dueDate = dueDate;
+    this.important = important;
+    this.project = project;
+    this.complete = false;
+}
+
+function changeStatus(task) {
+  task.complete === false ?  task.complete = true : task.complete = false;
+}
+
+function createTask(title, dueDate=(new Date()), important=false, project=projects[0]) {
+  let id = tasks.length;
+  let task = new Task(id, title, dueDate, important, project);
+  tasks.push(task);
+  if (!projects.includes(task.project)) projects.push(task.project);
+}
+
+function getTask(id) {
+  return tasks.filter(task => task.id === id)[0];
+}
+
+function updateTask(task, properties) {
+  Object.keys(properties).forEach(property => {
+    task[property] = properties[property];
+    if (property === 'project' && !projects.includes(task.project)) projects.push(task.project);
+  });
+}
+
+function deleteTask(task) {
+  tasks.splice(task.id, 1);
+}
+
+function todayTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_0__.default)(task.dueDate)) };
+function weekTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate)) };
+function allTasks() { return tasks };
+function importantTasks() { return tasks.filter(task => task.important) };
+function projectTasks(name) { return tasks.filter(task => task.project === name) }
+function allProjects() { return projects };
+
+function createProject(title) {
+  projects.push(title);
+}
+
+createTask('Test1', new Date('2021-09-01'), true, 'Work');
+createTask('Test2', new Date('2021-07-31'), false, 'Work');
+createTask('Test3', new Date('2021-07-11'), true, 'Work');
+createTask('Test4', new Date('2021-07-31'), false, 'Work');
+createTask('Test5', undefined, true);
+changeStatus(tasks[2]);
+updateTask(tasks[0], {project: 'Home'});
+
+
+
+/*
+createTask('Test1', new Date('2021-09-01'), true, 'Work');
+createTask('Test2', new Date('2021-07-31'), false, 'Work');
+createTask('Test3', new Date('2021-07-11'), true, 'Work');
+createTask('Test4', new Date('2021-07-31'), false, 'Work');
+createTask('Test5', undefined, true);
+changeStatus(tasks[2]);
+updateTask(tasks[0], {project: 'Home'});
+
+console.log(projects);
+console.log(projectTasks('Work'));
+*/
 
 
 /***/ })
@@ -744,14 +1308,47 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var material_icons_iconfont_material_icons_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
-/* harmony import */ var _manage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
-/* harmony import */ var _render_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(23);
+/* harmony import */ var _render_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
 
 
 
 
+const content = document.querySelector('#content');
+const sidelinks = document.querySelectorAll('.sidelink');
+const logo = document.querySelector('#logo');
+const ntb = document.querySelector('#newtask');
+const npb = document.querySelector('#newproject');
+const taskModal = document.querySelector('#newTaskModal');
+const projectModal = document.querySelector('#newProjectModal');
+const taskModalClose = document.querySelector('#closeTaskModal');
+const projectModalClose = document.querySelector('#closeProjectModal');
 
-(0,_render_js__WEBPACK_IMPORTED_MODULE_3__.render)();
+sidelinks.forEach((a) => {
+  a.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)(a.id));
+});
+
+logo.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)('today'));
+ntb.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderNewTask)());
+npb.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderNewProject)());
+
+(0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderProjectsMenu)();
+
+//task modal control
+ntb.onclick = function() { taskModal.style.display = "block"; }
+taskModalClose.onclick = function() {
+  taskModal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == taskModal) taskModal.style.display = "none";
+  else if (event.target == projectModal) projectModal.style.display = "none"; }
+
+//project modal control
+npb.onclick = function() { projectModal.style.display = "block"; }
+projectModalClose.onclick = function() {
+  projectModal.style.display = "none";
+}
+
+;(0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)('today');
 
 })();
 

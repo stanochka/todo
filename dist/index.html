@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>To-Do List</title>
+    <title>ToDo List</title>
   </head>
   <body>
     <nav>
@@ -12,7 +12,7 @@ checklist_rtl
 </span> ToDo List</a>
       </div>
       <div id="navbar-links">
-        <a class='newTaskButton' href="#">New task <span class="material-icons-outlined">
+        <a class='navlink' id="newtask" href="#"><span class="material-icons-outlined">
 add_circle_outline
 </span></a>
         <a class='navlink' id="settings" href="#"><span class="material-icons-outlined">
@@ -40,9 +40,8 @@ settings
         </section>
         <section id='projects'>
           <h3>Projects</h3>
-          <ul>
-            <li><a class='sidelink' id="default" href="#">Default</a></li>
-            <li><a class='sidelink' id="newProjectButton" href="#">New project <span class="material-icons-outlined">
+          <ul id='projectList'>
+            <li><a class='project' id="newproject" href="#">New project <span class="material-icons-outlined">
   add_circle_outline
 </span></a></li>
           </ul>
@@ -51,6 +50,32 @@ settings
       <div id="content"></div>
     </div>
     <footer>Created by <a href="https://github.com/stanochka"><span id='githubLogo'></span> stanochka</a></footer>
+
+    <div id="newTaskModal" class="modal">
+      <div class="modalContent">
+        <button class="closeModal" id="closeTaskModal">&times;</button>
+        <form id='newTaskForm'>
+          <label for="title">Title</label><br>
+          <input type="text" id="title" name="title" placeholder="Title"><br>
+          <label for="dueDate">Due</label><br>
+          <input type="date" id="dueDate" name="dueDate" placeholder="Due to"><br>
+          <label for="important">Important</label>
+          <input type="checkbox" id="important" name="important" value="true"><br>
+          <input type="submit" value="Add Task">
+        </form>
+      </div>
+    </div>
+
+    <div id="newProjectModal" class="modal">
+      <div class="modalContent">
+        <button class="closeModal" id="closeProjectModal">&times;</button>
+        <form id='newProjectForm'>
+          <label for="title">Title</label><br>
+          <input type="text" id="title" name="title" placeholder="Title"><br>
+          <input type="submit" value="Add Project">
+        </form>
+      </div>
+    </div>
 
     <script src="bundle.js"></script>
   </body>

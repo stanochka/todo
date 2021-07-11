@@ -1,5 +1,0 @@
-const manage = () => {
-  //
-}
-
-export { manage }
