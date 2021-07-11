@@ -1338,15 +1338,16 @@ ntb.onclick = function() { taskModal.style.display = "block"; }
 taskModalClose.onclick = function() {
   taskModal.style.display = "none";
 }
-window.onclick = function(event) {
-  if (event.target == taskModal) taskModal.style.display = "none";
-  else if (event.target == projectModal) projectModal.style.display = "none"; }
 
 //project modal control
 npb.onclick = function() { projectModal.style.display = "block"; }
 projectModalClose.onclick = function() {
   projectModal.style.display = "none";
 }
+
+window.onclick = function(event) {
+  if (event.target == taskModal) taskModal.style.display = "none";
+  else if (event.target == projectModal) projectModal.style.display = "none"; }
 
 ;(0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)('today');
 
