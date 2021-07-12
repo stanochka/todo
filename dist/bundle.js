@@ -585,7 +585,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_GitHub_Mark_32px_png__WEBPACK_IMPORTED_MODULE_2__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Inconsolata';\r\n}\r\n\r\nnav {\r\n  position: fixed;\r\n  top: 0;\r\n  height: 50px;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: flex-start;\r\n  background-color: #F03C5D;\r\n  padding: 10px;\r\n  z-index: 2;\r\n}\r\n\r\nnav a {\r\n  text-decoration: none;\r\n  color: white;\r\n  padding: 10px;\r\n}\r\n\r\nnav span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#logo {\r\n  text-transform: uppercase;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n}\r\n\r\n#mainContent {\r\n  margin-top: 50px;\r\n  display: flex;\r\n}\r\n\r\naside {\r\n  width: 200px;\r\n  border-right: 1px #CCCCCC solid;\r\n  font-size: 1.2em;\r\n  padding-left: 20px;\r\n}\r\n\r\naside ul {\r\n  padding: 0 0 15px 0;\r\n}\r\n\r\naside li {\r\n  list-style-type: none;\r\n  height: 40px;\r\n}\r\n\r\naside a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\naside span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content {\r\n  padding: 10px 20px;\r\n  margin-left: 20px;\r\n  width: calc(100vw - 200px);\r\n  min-height: calc(100vh - 50px);\r\n}\r\n\r\n#content button {\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n}\r\n\r\n#content button:hover {\r\n  cursor: pointer;\r\n}\r\n\r\n#content button:active {\r\n  transform: scale(.98);\r\n}\r\n\r\n#content .material-icons-outlined {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content ul {\r\n  margin-left: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n#content li {\r\n  list-style-type: none;\r\n  padding-top: 10px;\r\n}\r\n\r\nfooter {\r\n  background: #CCCCCC;\r\n  height: 50px;\r\n  width: 100%;\r\n  padding: 15px;\r\n  text-align: center;\r\n  font-size: .8em;\r\n}\r\n\r\nfooter a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\nfooter span {\r\n  vertical-align: top;\r\n}\r\n\r\n#githubLogo {\r\n  height: 14px;\r\n  width: 14px;\r\n  display: inline-block;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-size: contain;\r\n}\r\n\r\n.modal {\r\n  display: none;\r\n  position: absolute;\r\n  top: 20vh;\r\n  left: calc((100vw - 50vh)/2);\r\n  height: 50vh;\r\n  width: 50vh;\r\n  background: white;\r\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\r\n  border: 1px solid;\r\n  z-index: 3;\r\n}\r\n\r\n.modalContent {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n\r\n}\r\n\r\n.closeModal {\r\n  position: absolute;\r\n  right: 5px;\r\n  top: 5px;\r\n  cursor: pointer;\r\n}\r\n\r\n.modalForm {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n\r\ninput[type=text], input[type=date], input[type=checkbox] {\r\n  background: #CCCCCC;\r\n  color: black;\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px;\r\n}\r\n\r\ninput[type=submit] {\r\n  margin: 10px;\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n}\r\n\r\ninput::placeholder {\r\n  color: black;\r\n  font-size: .9em;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n  font-family: 'Inconsolata';\n}\n\nnav {\n  position: fixed;\n  top: 0;\n  height: 50px;\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  background-color: #F03C5D;\n  padding: 10px;\n  z-index: 2;\n}\n\nnav a {\n  text-decoration: none;\n  color: white;\n  padding: 10px;\n}\n\nnav span {\n  vertical-align: middle;\n}\n\n#logo {\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1.3em;\n}\n\n#mainContent {\n  margin-top: 50px;\n  display: flex;\n}\n\naside {\n  width: 200px;\n  border-right: 1px #CCCCCC solid;\n  font-size: 1.2em;\n  padding-left: 20px;\n}\n\naside ul {\n  padding: 0 0 15px 0;\n}\n\naside li {\n  list-style-type: none;\n  height: 40px;\n}\n\naside a {\n  text-decoration: none;\n  color: black;\n}\n\naside span {\n  vertical-align: middle;\n}\n\n#content {\n  padding: 10px 20px;\n  margin-left: 20px;\n  width: calc(100vw - 200px);\n  min-height: calc(100vh - 50px);\n}\n\n#content button {\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n  cursor: pointer;\n}\n\n#content button:active {\n  transform: scale(.98);\n}\n\n#content .material-icons-outlined {\n  vertical-align: middle;\n}\n\n#content ul {\n  margin-left: 0;\n  padding-left: 0;\n}\n\n#content li {\n  list-style-type: none;\n  padding-top: 10px;\n}\n\n#content a {\n  cursor: pointer;\n}\n\nfooter {\n  background: #CCCCCC;\n  height: 50px;\n  width: 100%;\n  padding: 15px;\n  text-align: center;\n  font-size: .8em;\n}\n\nfooter a {\n  text-decoration: none;\n  color: black;\n}\n\nfooter span {\n  vertical-align: top;\n}\n\n#githubLogo {\n  height: 14px;\n  width: 14px;\n  display: inline-block;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n}\n\n.modal {\n  display: none;\n  position: absolute;\n  top: 15vh;\n  left: calc((100vw - 50vh)/2);\n  height: 60vh;\n  width: 50vh;\n  background: white;\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\n  border: 1px solid;\n  z-index: 3;\n}\n\n.modalContent {\n  width: 100%;\n  height: 100%;\n  position: relative;\n\n}\n\n.closeModal {\n  position: absolute;\n  right: 5px;\n  top: 5px;\n  cursor: pointer;\n}\n\n.modalForm {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n\ninput[type=text], input[type=date], input[type=checkbox], select {\n  background: #CCCCCC;\n  color: black;\n  border: 0;\n  padding: 10px;\n  margin: 10px;\n}\n\ninput[type=submit] {\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n  cursor: pointer;\n}\n\ninput[type=submit]:active {\n  transform: scale(.98);\n}\n\ninput::placeholder {\n  color: black;\n  font-size: .9em;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -612,7 +612,8 @@ __webpack_require__.r(__webpack_exports__);
 
 const content = document.querySelector('#content');
 const projectList = document.querySelector('#projectList');
-const taskModal = document.querySelector('#newTaskModal');
+const newTaskModal = document.querySelector('#newTaskModal');
+const editTaskModal = document.querySelector('#editTaskModal');
 const projectModal = document.querySelector('#newProjectModal');
 
 const render = (link) => {
@@ -632,24 +633,9 @@ const render = (link) => {
   h1.textContent = headings[link];
   content.appendChild(h1);
 
-
-  var ul = document.createElement('ul');
   var tasks = funcs[link]();
-  if (tasks.length>0) {
-    tasks.forEach(task => {
-    let li = document.createElement('li');
-    li.textContent = `${task.title} due to ${task.dueDate.toDateString()}`;
-    ul.appendChild(li);
-  })
-  }
-  content.appendChild(ul);
 
-  var b = document.createElement('button');
-  b.classList.add('newTaskButton');
-  b.innerHTML = 'New task <span class="material-icons-outlined">add_circle_outline</span>';
-  content.appendChild(b);
-
-  b.addEventListener('click', () => renderNewTask());
+  renderHelper(tasks);
 }
 
 const renderProject = (id) => {
@@ -660,13 +646,61 @@ const renderProject = (id) => {
   h1.textContent = name;
   content.appendChild(h1);
 
-  var ul = document.createElement('ul');
   var tasks = _application_js__WEBPACK_IMPORTED_MODULE_0__.projectTasks(name);
+
+  renderHelper(tasks);
+}
+
+const renderHelper = (tasks) => {
+  var ul = document.createElement('ul');
   if (tasks.length>0) {
-    tasks.forEach(task => {
+    tasks.sort((a,b) => new Date(a.dueDate) - new Date(b.dueDate)).forEach(task => {
     let li = document.createElement('li');
-    li.textContent = `${task.title} due to ${task.dueDate.toDateString()}`;
+    let checkbox = document.createElement('input');
+    checkbox.type = "checkbox";
+    checkbox.name = task.title;
+    checkbox.value = "complete";
+    li.appendChild(checkbox);
+    let a = document.createElement('a');
+    task.dueDate ?
+    a.textContent = `${task.title} due to ${new Date(task.dueDate).toDateString()}` :
+    a.textContent = `${task.title}`;
+    if (task.complete) {
+      a.style['text-decoration'] = 'line-through';
+      checkbox.checked = true;
+    }
+    let span = document.createElement('span');
+    span.textContent = 'error_outline';
+    span.classList.add('material-icons-outlined');
+    span.style.color = 'red';
+    span.style['vertical-align'] = 'text-bottom';
+    span.style['font-size'] = '1.2em'
+    task.important ? span.style.display = 'inline-block' : span.style.display = 'none';
+    let button = document.createElement('button');
+    button.style = 'padding: 4px; font-size: .7em; margin-left: 10px; border-radius: 4px;'
+    button.textContent = 'Delete';
+    li.appendChild(a);
+    li.appendChild(span);
+    li.appendChild(button);
     ul.appendChild(li);
+
+    checkbox.addEventListener('change', () => {
+      _application_js__WEBPACK_IMPORTED_MODULE_0__.changeStatus(task);
+      console.log(task.complete);
+      task.complete ?
+      a.style['text-decoration'] = 'line-through' :
+      a.style['text-decoration'] = 'none';
+      }
+    );
+
+    a.addEventListener('click', () => renderEditTask(task));
+    button.addEventListener('click', () => {
+      confirm('Are you sure?');
+      _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteTask(task);
+      render('today');
+      }
+    );
+
   })
   }
   content.appendChild(ul);
@@ -680,7 +714,6 @@ const renderProject = (id) => {
 }
 
 const renderProjectsMenu = () => {
-  //while (projectList.childElementCount) content.lastChild.remove();
   var projects = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects();
   projects.forEach((project, i) => {
     let li = document.createElement('li');
@@ -696,11 +729,66 @@ const renderProjectsMenu = () => {
 }
 
 const renderNewTask = () => {
-   taskModal.style.display = "block";
+   newTaskModal.style.display = "block";
+   const form = document.querySelector('#newTaskForm');
+   const select = document.querySelector('select#project');
+   var projects = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects();
+   projects.forEach(project => {
+     var option = document.createElement('option');
+     option.textContent = project;
+     option.value = project;
+     select.appendChild(option);
+   })
+   form.addEventListener('submit', () => {
+     let title = form.elements.title.value;
+     let dueDate = form.elements.dueDate.value;
+     let important = form.elements.important.checked;
+     let project = form.elements.project.value;
+     _application_js__WEBPACK_IMPORTED_MODULE_0__.createTask(title, dueDate, important, project);
+     return false;
+   });
+}
+
+const renderEditTask = (task) => {
+   editTaskModal.style.display = "block";
+   const form = document.querySelector('#editTaskForm');
+   const select = document.querySelector('#selectProject');
+   form.elements.title.defaultValue = task.title;
+   form.elements.dueDate.defaultValue = task.dueDate;
+   var imp = false;
+   if (task.important) {
+     form.elements.important.checked = true;
+     imp = true;
+   }
+   var projects = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects();
+   projects.forEach(project => {
+     var option = document.createElement('option');
+     option.textContent = project;
+     option.value = project;
+     select.appendChild(option);
+   })
+   form.elements.project.defaultValue = task.project;
+   form.addEventListener('submit', () => {
+     var changed = {};
+     [form.elements.title, form.elements.dueDate, form.elements.project].forEach(el => {
+       if (el.defaultValue !== el.value) {
+         changed[el.name] = el.value;
+       }
+     });
+     if (form.elements.important.checked !== imp) changed['important'] = form.elements.important.checked;
+     _application_js__WEBPACK_IMPORTED_MODULE_0__.updateTask(task, changed);
+     return false;
+   });
 }
 
 const renderNewProject = () => {
   projectModal.style.display = "block";
+  const form = document.querySelector('#newProjectForm');
+  form.addEventListener('submit', () => {
+    let title = form.elements.title.value;
+    _application_js__WEBPACK_IMPORTED_MODULE_0__.createProject(title);
+    return false;
+  });
 }
 
 
@@ -714,7 +802,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "changeStatus": () => (/* binding */ changeStatus),
 /* harmony export */   "createTask": () => (/* binding */ createTask),
-/* harmony export */   "getTask": () => (/* binding */ getTask),
 /* harmony export */   "updateTask": () => (/* binding */ updateTask),
 /* harmony export */   "deleteTask": () => (/* binding */ deleteTask),
 /* harmony export */   "todayTasks": () => (/* binding */ todayTasks),
@@ -726,11 +813,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "createProject": () => (/* binding */ createProject)
 /* harmony export */ });
 /* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(29);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(33);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(29);
 
 
-var tasks = [];
-var projects = ['Default'];
+var tasks = JSON.parse(localStorage.getItem('tasks'));
+if (tasks === null) {
+  localStorage.setItem('tasks', JSON.stringify([]));
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+}
+
+var projects = JSON.parse(localStorage.getItem('projects'));
+if (projects === null) {
+  localStorage.setItem('projects', JSON.stringify(['Default']));
+  projects = JSON.parse(localStorage.getItem('projects'));
+}
 
 function Task(id, title, dueDate, important, project) {
     this.id = id;
@@ -743,63 +840,70 @@ function Task(id, title, dueDate, important, project) {
 
 function changeStatus(task) {
   task.complete === false ?  task.complete = true : task.complete = false;
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 function createTask(title, dueDate=(new Date()), important=false, project=projects[0]) {
   let id = tasks.length;
   let task = new Task(id, title, dueDate, important, project);
   tasks.push(task);
-  if (!projects.includes(task.project)) projects.push(task.project);
-}
-
-function getTask(id) {
-  return tasks.filter(task => task.id === id)[0];
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  if (!projects.includes(task.project)) {
+    projects.push(task.project);
+    localStorage.setItem('projects', JSON.stringify(projects));
+  }
 }
 
 function updateTask(task, properties) {
   Object.keys(properties).forEach(property => {
     task[property] = properties[property];
-    if (property === 'project' && !projects.includes(task.project)) projects.push(task.project);
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    if (property === 'project' && !projects.includes(task.project)) {
+      projects.push(task.project);
+      localStorage.setItem('projects', JSON.stringify(projects));
+    }
   });
 }
 
 function deleteTask(task) {
   tasks.splice(task.id, 1);
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
-function todayTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_0__.default)(task.dueDate)) };
-function weekTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate)) };
-function allTasks() { return tasks };
-function importantTasks() { return tasks.filter(task => task.important) };
-function projectTasks(name) { return tasks.filter(task => task.project === name) }
-function allProjects() { return projects };
+function todayTasks() {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_0__.default)((0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate)))
+}
+
+function weekTasks() {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_2__.default)((0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate)))
+}
+
+function allTasks() {
+  return JSON.parse(localStorage.getItem('tasks'));
+}
+
+function importantTasks() {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => task.important)
+}
+
+function projectTasks(name) {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => task.project === name);
+}
+
+function allProjects() {
+  return JSON.parse(localStorage.getItem('projects'));
+}
 
 function createProject(title) {
   projects.push(title);
+  localStorage.setItem('projects', JSON.stringify(projects));
 }
 
-createTask('Test1', new Date('2021-09-01'), true, 'Work');
-createTask('Test2', new Date('2021-07-31'), false, 'Work');
-createTask('Test3', new Date('2021-07-11'), true, 'Work');
-createTask('Test4', new Date('2021-07-31'), false, 'Work');
-createTask('Test5', undefined, true);
-changeStatus(tasks[2]);
-updateTask(tasks[0], {project: 'Home'});
 
-
-
-/*
-createTask('Test1', new Date('2021-09-01'), true, 'Work');
-createTask('Test2', new Date('2021-07-31'), false, 'Work');
-createTask('Test3', new Date('2021-07-11'), true, 'Work');
-createTask('Test4', new Date('2021-07-31'), false, 'Work');
-createTask('Test5', undefined, true);
-changeStatus(tasks[2]);
-updateTask(tasks[0], {project: 'Home'});
-
-console.log(projects);
-console.log(projectTasks('Work'));
-*/
 
 
 /***/ }),
@@ -1200,6 +1304,308 @@ function toInteger(dirtyNumber) {
   return number < 0 ? Math.ceil(number) : Math.floor(number);
 }
 
+/***/ }),
+/* 33 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ parseISO)
+/* harmony export */ });
+/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+var MILLISECONDS_IN_HOUR = 3600000;
+var MILLISECONDS_IN_MINUTE = 60000;
+var DEFAULT_ADDITIONAL_DIGITS = 2;
+var patterns = {
+  dateTimeDelimiter: /[T ]/,
+  timeZoneDelimiter: /[Z ]/i,
+  timezone: /([Z+-].*)$/
+};
+var dateRegex = /^-?(?:(\d{3})|(\d{2})(?:-?(\d{2}))?|W(\d{2})(?:-?(\d{1}))?|)$/;
+var timeRegex = /^(\d{2}(?:[.,]\d*)?)(?::?(\d{2}(?:[.,]\d*)?))?(?::?(\d{2}(?:[.,]\d*)?))?$/;
+var timezoneRegex = /^([+-])(\d{2})(?::?(\d{2}))?$/;
+/**
+ * @name parseISO
+ * @category Common Helpers
+ * @summary Parse ISO string
+ *
+ * @description
+ * Parse the given string in ISO 8601 format and return an instance of Date.
+ *
+ * Function accepts complete ISO 8601 formats as well as partial implementations.
+ * ISO 8601: http://en.wikipedia.org/wiki/ISO_8601
+ *
+ * If the argument isn't a string, the function cannot parse the string or
+ * the values are invalid, it returns Invalid Date.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * - The previous `parse` implementation was renamed to `parseISO`.
+ *
+ *   ```javascript
+ *   // Before v2.0.0
+ *   parse('2016-01-01')
+ *
+ *   // v2.0.0 onward
+ *   parseISO('2016-01-01')
+ *   ```
+ *
+ * - `parseISO` now validates separate date and time values in ISO-8601 strings
+ *   and returns `Invalid Date` if the date is invalid.
+ *
+ *   ```javascript
+ *   parseISO('2018-13-32')
+ *   //=> Invalid Date
+ *   ```
+ *
+ * - `parseISO` now doesn't fall back to `new Date` constructor
+ *   if it fails to parse a string argument. Instead, it returns `Invalid Date`.
+ *
+ * @param {String} argument - the value to convert
+ * @param {Object} [options] - an object with options.
+ * @param {0|1|2} [options.additionalDigits=2] - the additional number of digits in the extended year format
+ * @returns {Date} the parsed date in the local time zone
+ * @throws {TypeError} 1 argument required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // Convert string '2014-02-11T11:30:30' to date:
+ * var result = parseISO('2014-02-11T11:30:30')
+ * //=> Tue Feb 11 2014 11:30:30
+ *
+ * @example
+ * // Convert string '+02014101' to date,
+ * // if the additional number of digits in the extended year format is 1:
+ * var result = parseISO('+02014101', { additionalDigits: 1 })
+ * //=> Fri Apr 11 2014 00:00:00
+ */
+
+function parseISO(argument, dirtyOptions) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var options = dirtyOptions || {};
+  var additionalDigits = options.additionalDigits == null ? DEFAULT_ADDITIONAL_DIGITS : (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(options.additionalDigits);
+
+  if (additionalDigits !== 2 && additionalDigits !== 1 && additionalDigits !== 0) {
+    throw new RangeError('additionalDigits must be 0, 1 or 2');
+  }
+
+  if (!(typeof argument === 'string' || Object.prototype.toString.call(argument) === '[object String]')) {
+    return new Date(NaN);
+  }
+
+  var dateStrings = splitDateString(argument);
+  var date;
+
+  if (dateStrings.date) {
+    var parseYearResult = parseYear(dateStrings.date, additionalDigits);
+    date = parseDate(parseYearResult.restDateString, parseYearResult.year);
+  }
+
+  if (isNaN(date) || !date) {
+    return new Date(NaN);
+  }
+
+  var timestamp = date.getTime();
+  var time = 0;
+  var offset;
+
+  if (dateStrings.time) {
+    time = parseTime(dateStrings.time);
+
+    if (isNaN(time) || time === null) {
+      return new Date(NaN);
+    }
+  }
+
+  if (dateStrings.timezone) {
+    offset = parseTimezone(dateStrings.timezone);
+
+    if (isNaN(offset)) {
+      return new Date(NaN);
+    }
+  } else {
+    var dirtyDate = new Date(timestamp + time); // js parsed string assuming it's in UTC timezone
+    // but we need it to be parsed in our timezone
+    // so we use utc values to build date in our timezone.
+    // Year values from 0 to 99 map to the years 1900 to 1999
+    // so set year explicitly with setFullYear.
+
+    var result = new Date(0);
+    result.setFullYear(dirtyDate.getUTCFullYear(), dirtyDate.getUTCMonth(), dirtyDate.getUTCDate());
+    result.setHours(dirtyDate.getUTCHours(), dirtyDate.getUTCMinutes(), dirtyDate.getUTCSeconds(), dirtyDate.getUTCMilliseconds());
+    return result;
+  }
+
+  return new Date(timestamp + time + offset);
+}
+
+function splitDateString(dateString) {
+  var dateStrings = {};
+  var array = dateString.split(patterns.dateTimeDelimiter);
+  var timeString; // The regex match should only return at maximum two array elements.
+  // [date], [time], or [date, time].
+
+  if (array.length > 2) {
+    return dateStrings;
+  }
+
+  if (/:/.test(array[0])) {
+    dateStrings.date = null;
+    timeString = array[0];
+  } else {
+    dateStrings.date = array[0];
+    timeString = array[1];
+
+    if (patterns.timeZoneDelimiter.test(dateStrings.date)) {
+      dateStrings.date = dateString.split(patterns.timeZoneDelimiter)[0];
+      timeString = dateString.substr(dateStrings.date.length, dateString.length);
+    }
+  }
+
+  if (timeString) {
+    var token = patterns.timezone.exec(timeString);
+
+    if (token) {
+      dateStrings.time = timeString.replace(token[1], '');
+      dateStrings.timezone = token[1];
+    } else {
+      dateStrings.time = timeString;
+    }
+  }
+
+  return dateStrings;
+}
+
+function parseYear(dateString, additionalDigits) {
+  var regex = new RegExp('^(?:(\\d{4}|[+-]\\d{' + (4 + additionalDigits) + '})|(\\d{2}|[+-]\\d{' + (2 + additionalDigits) + '})$)');
+  var captures = dateString.match(regex); // Invalid ISO-formatted year
+
+  if (!captures) return {
+    year: null
+  };
+  var year = captures[1] && parseInt(captures[1]);
+  var century = captures[2] && parseInt(captures[2]);
+  return {
+    year: century == null ? year : century * 100,
+    restDateString: dateString.slice((captures[1] || captures[2]).length)
+  };
+}
+
+function parseDate(dateString, year) {
+  // Invalid ISO-formatted year
+  if (year === null) return null;
+  var captures = dateString.match(dateRegex); // Invalid ISO-formatted string
+
+  if (!captures) return null;
+  var isWeekDate = !!captures[4];
+  var dayOfYear = parseDateUnit(captures[1]);
+  var month = parseDateUnit(captures[2]) - 1;
+  var day = parseDateUnit(captures[3]);
+  var week = parseDateUnit(captures[4]);
+  var dayOfWeek = parseDateUnit(captures[5]) - 1;
+
+  if (isWeekDate) {
+    if (!validateWeekDate(year, week, dayOfWeek)) {
+      return new Date(NaN);
+    }
+
+    return dayOfISOWeekYear(year, week, dayOfWeek);
+  } else {
+    var date = new Date(0);
+
+    if (!validateDate(year, month, day) || !validateDayOfYearDate(year, dayOfYear)) {
+      return new Date(NaN);
+    }
+
+    date.setUTCFullYear(year, month, Math.max(dayOfYear, day));
+    return date;
+  }
+}
+
+function parseDateUnit(value) {
+  return value ? parseInt(value) : 1;
+}
+
+function parseTime(timeString) {
+  var captures = timeString.match(timeRegex);
+  if (!captures) return null; // Invalid ISO-formatted time
+
+  var hours = parseTimeUnit(captures[1]);
+  var minutes = parseTimeUnit(captures[2]);
+  var seconds = parseTimeUnit(captures[3]);
+
+  if (!validateTime(hours, minutes, seconds)) {
+    return NaN;
+  }
+
+  return hours * MILLISECONDS_IN_HOUR + minutes * MILLISECONDS_IN_MINUTE + seconds * 1000;
+}
+
+function parseTimeUnit(value) {
+  return value && parseFloat(value.replace(',', '.')) || 0;
+}
+
+function parseTimezone(timezoneString) {
+  if (timezoneString === 'Z') return 0;
+  var captures = timezoneString.match(timezoneRegex);
+  if (!captures) return 0;
+  var sign = captures[1] === '+' ? -1 : 1;
+  var hours = parseInt(captures[2]);
+  var minutes = captures[3] && parseInt(captures[3]) || 0;
+
+  if (!validateTimezone(hours, minutes)) {
+    return NaN;
+  }
+
+  return sign * (hours * MILLISECONDS_IN_HOUR + minutes * MILLISECONDS_IN_MINUTE);
+}
+
+function dayOfISOWeekYear(isoWeekYear, week, day) {
+  var date = new Date(0);
+  date.setUTCFullYear(isoWeekYear, 0, 4);
+  var fourthOfJanuaryDay = date.getUTCDay() || 7;
+  var diff = (week - 1) * 7 + day + 1 - fourthOfJanuaryDay;
+  date.setUTCDate(date.getUTCDate() + diff);
+  return date;
+} // Validation functions
+// February is null to handle the leap year (using ||)
+
+
+var daysInMonths = [31, null, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+function isLeapYearIndex(year) {
+  return year % 400 === 0 || year % 4 === 0 && year % 100;
+}
+
+function validateDate(year, month, date) {
+  return month >= 0 && month <= 11 && date >= 1 && date <= (daysInMonths[month] || (isLeapYearIndex(year) ? 29 : 28));
+}
+
+function validateDayOfYearDate(year, dayOfYear) {
+  return dayOfYear >= 1 && dayOfYear <= (isLeapYearIndex(year) ? 366 : 365);
+}
+
+function validateWeekDate(_year, week, day) {
+  return week >= 1 && week <= 53 && day >= 0 && day <= 6;
+}
+
+function validateTime(hours, minutes, seconds) {
+  if (hours === 24) {
+    return minutes === 0 && seconds === 0;
+  }
+
+  return seconds >= 0 && seconds < 60 && minutes >= 0 && minutes < 60 && hours >= 0 && hours < 25;
+}
+
+function validateTimezone(_hours, minutes) {
+  return minutes >= 0 && minutes <= 59;
+}
+
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -1317,9 +1723,11 @@ const sidelinks = document.querySelectorAll('.sidelink');
 const logo = document.querySelector('#logo');
 const ntb = document.querySelector('#newtask');
 const npb = document.querySelector('#newproject');
-const taskModal = document.querySelector('#newTaskModal');
+const newTaskModal = document.querySelector('#newTaskModal');
+const editTaskModal = document.querySelector('#editTaskModal');
 const projectModal = document.querySelector('#newProjectModal');
-const taskModalClose = document.querySelector('#closeTaskModal');
+const newModalClose = document.querySelector('#closeNewTaskModal');
+const editModalClose = document.querySelector('#closeEditTaskModal');
 const projectModalClose = document.querySelector('#closeProjectModal');
 
 sidelinks.forEach((a) => {
@@ -1332,19 +1740,15 @@ npb.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.r
 
 (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderProjectsMenu)();
 
-//task modal control
-taskModalClose.onclick = function() {
-  taskModal.style.display = "none";
-}
-
-//project modal control
-projectModalClose.onclick = function() {
-  projectModal.style.display = "none";
-}
+newModalClose.addEventListener('click', () => newTaskModal.style.display = "none");
+editModalClose.addEventListener('click', () => editTaskModal.style.display = "none");
+projectModalClose.addEventListener('click', () => projectModal.style.display = "none");
 
 window.onclick = function(event) {
-  if (event.target == taskModal) taskModal.style.display = "none";
-  else if (event.target == projectModal) projectModal.style.display = "none"; }
+  if (event.target == newTaskModal) newTaskModal.style.display = "none";
+  else if (event.target == editTaskModal) editTaskModal.style.display = "none";
+  else if (event.target == projectModal) projectModal.style.display = "none";
+}
 
 ;(0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)('today');
 

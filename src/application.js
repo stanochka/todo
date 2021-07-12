@@ -1,7 +1,16 @@
-import { isToday, isThisWeek } from 'date-fns';
+import { isToday, isThisWeek, parseISO } from 'date-fns';
 
-var tasks = [];
-var projects = ['Default'];
+var tasks = JSON.parse(localStorage.getItem('tasks'));
+if (tasks === null) {
+  localStorage.setItem('tasks', JSON.stringify([]));
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+}
+
+var projects = JSON.parse(localStorage.getItem('projects'));
+if (projects === null) {
+  localStorage.setItem('projects', JSON.stringify(['Default']));
+  projects = JSON.parse(localStorage.getItem('projects'));
+}
 
 function Task(id, title, dueDate, important, project) {
     this.id = id;
@@ -14,52 +23,71 @@ function Task(id, title, dueDate, important, project) {
 
 function changeStatus(task) {
   task.complete === false ?  task.complete = true : task.complete = false;
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 function createTask(title, dueDate=(new Date()), important=false, project=projects[0]) {
   let id = tasks.length;
   let task = new Task(id, title, dueDate, important, project);
   tasks.push(task);
-  if (!projects.includes(task.project)) projects.push(task.project);
-}
-
-function getTask(id) {
-  return tasks.filter(task => task.id === id)[0];
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  if (!projects.includes(task.project)) {
+    projects.push(task.project);
+    localStorage.setItem('projects', JSON.stringify(projects));
+  }
 }
 
 function updateTask(task, properties) {
   Object.keys(properties).forEach(property => {
     task[property] = properties[property];
-    if (property === 'project' && !projects.includes(task.project)) projects.push(task.project);
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    if (property === 'project' && !projects.includes(task.project)) {
+      projects.push(task.project);
+      localStorage.setItem('projects', JSON.stringify(projects));
+    }
   });
 }
 
 function deleteTask(task) {
   tasks.splice(task.id, 1);
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
-function todayTasks() { return tasks.filter(task => isToday(task.dueDate)) };
-function weekTasks() { return tasks.filter(task => isThisWeek(task.dueDate)) };
-function allTasks() { return tasks };
-function importantTasks() { return tasks.filter(task => task.important) };
-function projectTasks(name) { return tasks.filter(task => task.project === name) }
-function allProjects() { return projects };
+function todayTasks() {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => isToday(parseISO(task.dueDate)))
+}
+
+function weekTasks() {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => isThisWeek(parseISO(task.dueDate)))
+}
+
+function allTasks() {
+  return JSON.parse(localStorage.getItem('tasks'));
+}
+
+function importantTasks() {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => task.important)
+}
+
+function projectTasks(name) {
+  tasks = JSON.parse(localStorage.getItem('tasks'));
+  return tasks.filter(task => task.project === name);
+}
+
+function allProjects() {
+  return JSON.parse(localStorage.getItem('projects'));
+}
 
 function createProject(title) {
   projects.push(title);
+  localStorage.setItem('projects', JSON.stringify(projects));
 }
-
-createTask('Test1', new Date('2021-09-01'), true, 'Work');
-createTask('Test2', new Date('2021-07-31'), false, 'Work');
-createTask('Test3', new Date('2021-07-11'), true, 'Work');
-createTask('Test4', new Date('2021-07-31'), false, 'Work');
-createTask('Test5', undefined, true);
-changeStatus(tasks[2]);
-updateTask(tasks[0], {project: 'Home'});
 
 export { changeStatus,
          createTask,
-         getTask,
          updateTask,
          deleteTask,
          todayTasks,
@@ -69,16 +97,3 @@ export { changeStatus,
          projectTasks,
          allProjects,
          createProject}
-
-/*
-createTask('Test1', new Date('2021-09-01'), true, 'Work');
-createTask('Test2', new Date('2021-07-31'), false, 'Work');
-createTask('Test3', new Date('2021-07-11'), true, 'Work');
-createTask('Test4', new Date('2021-07-31'), false, 'Work');
-createTask('Test5', undefined, true);
-changeStatus(tasks[2]);
-updateTask(tasks[0], {project: 'Home'});
-
-console.log(projects);
-console.log(projectTasks('Work'));
-*/

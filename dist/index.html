@@ -53,7 +53,7 @@ settings
 
     <div id="newTaskModal" class="modal">
       <div class="modalContent">
-        <button class="closeModal" id="closeTaskModal">&times;</button>
+        <button class="closeModal" id="closeNewTaskModal">&times;</button>
         <form class='modalForm' id='newTaskForm'>
           <h2>New Task</h2>
           <label for="title">Title</label><br>
@@ -61,8 +61,30 @@ settings
           <label for="dueDate">Due</label><br>
           <input type="date" id="dueDate" name="dueDate" placeholder="Due to"><br>
           <label for="important">Important</label>
-          <input type="checkbox" id="important" name="important" value="true"><br>
-          <input type="submit" value="Add Task">
+          <input type="checkbox" id="important" name="important" value="true"><br><br>
+          <label for="project">Project</label><br>
+          <select id="project" name="project" size=1 >
+          </select><br>
+          <input type="submit" value="Save">
+        </form>
+      </div>
+    </div>
+
+    <div id="editTaskModal" class="modal">
+      <div class="modalContent">
+        <button class="closeModal" id="closeEditTaskModal">&times;</button>
+        <form class='modalForm' id='editTaskForm'>
+          <h2>Edit Task</h2>
+          <label for="title">Title</label><br>
+          <input type="text" id="title" name="title" placeholder="Title"><br>
+          <label for="dueDate">Due</label><br>
+          <input type="date" id="dueDate" name="dueDate" placeholder="Due to"><br>
+          <label for="important">Important</label>
+          <input type="checkbox" id="important" name="important" value="true"><br><br>
+          <label for="project">Project</label><br>
+          <select id="selectProject" name="project" size=1 >
+          </select><br>
+          <input type="submit" value="Save">
         </form>
       </div>
     </div>
