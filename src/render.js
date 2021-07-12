@@ -1,8 +1,11 @@
 import * as app from './application.js';
 
-const render = (link) => {
-  const content = document.querySelector('#content');
+const content = document.querySelector('#content');
+const projectList = document.querySelector('#projectList');
+const taskModal = document.querySelector('#newTaskModal');
+const projectModal = document.querySelector('#newProjectModal');
 
+const render = (link) => {
   while (content.childElementCount) content.lastChild.remove();
 
   const headings = { today: 'Today tasks',
@@ -40,7 +43,6 @@ const render = (link) => {
 }
 
 const renderProject = (id) => {
-  const content = document.querySelector('#content');
   while (content.childElementCount) content.lastChild.remove();
   var name = app.allProjects()[+id.match(/\d+/)]
 
@@ -68,7 +70,6 @@ const renderProject = (id) => {
 }
 
 const renderProjectsMenu = () => {
-  const projectList = document.querySelector('#projectList');
   //while (projectList.childElementCount) content.lastChild.remove();
   var projects = app.allProjects();
   projects.forEach((project, i) => {
@@ -85,11 +86,11 @@ const renderProjectsMenu = () => {
 }
 
 const renderNewTask = () => {
-  //
+   taskModal.style.display = "block";
 }
 
 const renderNewProject = () => {
-  //
+  projectModal.style.display = "block";
 }
 
 export { render, renderProjectsMenu, renderNewTask, renderNewProject }

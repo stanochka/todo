@@ -160,17 +160,10 @@ footer span {
   position: absolute;
   right: 5px;
   top: 5px;
+  cursor: pointer;
 }
 
-#newTaskForm {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-#newProjectForm {
+.modalForm {
   position: absolute;
   top: 50%;
   left: 50%;

@@ -22,17 +22,8 @@ npb.addEventListener('click', () => renderNewProject());
 
 renderProjectsMenu();
 
-//task modal control
-ntb.onclick = function() { taskModal.style.display = "block"; }
-taskModalClose.onclick = function() {
-  taskModal.style.display = "none";
-}
-
-//project modal control
-npb.onclick = function() { projectModal.style.display = "block"; }
-projectModalClose.onclick = function() {
-  projectModal.style.display = "none";
-}
+taskModalClose.addEventListener('click', () => taskModal.style.display = "none");
+projectModalClose.addEventListener('click', () => projectModal.style.display = "none");
 
 window.onclick = function(event) {
   if (event.target == taskModal) taskModal.style.display = "none";

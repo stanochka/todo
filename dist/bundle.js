@@ -585,7 +585,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_GitHub_Mark_32px_png__WEBPACK_IMPORTED_MODULE_2__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n  font-family: 'Inconsolata';\n}\n\nnav {\n  position: fixed;\n  top: 0;\n  height: 50px;\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  background-color: #F03C5D;\n  padding: 10px;\n  z-index: 2;\n}\n\nnav a {\n  text-decoration: none;\n  color: white;\n  padding: 10px;\n}\n\nnav span {\n  vertical-align: middle;\n}\n\n#logo {\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1.3em;\n}\n\n#mainContent {\n  margin-top: 50px;\n  display: flex;\n}\n\naside {\n  width: 200px;\n  border-right: 1px #CCCCCC solid;\n  font-size: 1.2em;\n  padding-left: 20px;\n}\n\naside ul {\n  padding: 0 0 15px 0;\n}\n\naside li {\n  list-style-type: none;\n  height: 40px;\n}\n\naside a {\n  text-decoration: none;\n  color: black;\n}\n\naside span {\n  vertical-align: middle;\n}\n\n#content {\n  padding: 10px 20px;\n  margin-left: 20px;\n  width: calc(100vw - 200px);\n  min-height: calc(100vh - 50px);\n}\n\n#content button {\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n}\n\n#content button:hover {\n  cursor: pointer;\n}\n\n#content button:active {\n  transform: scale(.98);\n}\n\n#content .material-icons-outlined {\n  vertical-align: middle;\n}\n\n#content ul {\n  margin-left: 0;\n  padding-left: 0;\n}\n\n#content li {\n  list-style-type: none;\n  padding-top: 10px;\n}\n\nfooter {\n  background: #CCCCCC;\n  height: 50px;\n  width: 100%;\n  padding: 15px;\n  text-align: center;\n  font-size: .8em;\n}\n\nfooter a {\n  text-decoration: none;\n  color: black;\n}\n\nfooter span {\n  vertical-align: top;\n}\n\n#githubLogo {\n  height: 14px;\n  width: 14px;\n  display: inline-block;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n}\n\n.modal {\n  display: none;\n  position: absolute;\n  top: 20vh;\n  left: calc((100vw - 50vh)/2);\n  height: 50vh;\n  width: 50vh;\n  background: white;\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\n  border: 1px solid;\n  z-index: 3;\n}\n\n.modalContent {\n  width: 100%;\n  height: 100%;\n  position: relative;\n\n}\n\n.closeModal {\n  position: absolute;\n  right: 5px;\n  top: 5px;\n}\n\n#newTaskForm {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n\n#newProjectForm {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n\ninput[type=text], input[type=date], input[type=checkbox] {\n  background: #CCCCCC;\n  color: black;\n  border: 0;\n  padding: 10px;\n  margin: 10px;\n}\n\ninput[type=submit] {\n  margin: 10px;\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n}\n\ninput::placeholder {\n  color: black;\n  font-size: .9em;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Inconsolata';\r\n}\r\n\r\nnav {\r\n  position: fixed;\r\n  top: 0;\r\n  height: 50px;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: flex-start;\r\n  background-color: #F03C5D;\r\n  padding: 10px;\r\n  z-index: 2;\r\n}\r\n\r\nnav a {\r\n  text-decoration: none;\r\n  color: white;\r\n  padding: 10px;\r\n}\r\n\r\nnav span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#logo {\r\n  text-transform: uppercase;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n}\r\n\r\n#mainContent {\r\n  margin-top: 50px;\r\n  display: flex;\r\n}\r\n\r\naside {\r\n  width: 200px;\r\n  border-right: 1px #CCCCCC solid;\r\n  font-size: 1.2em;\r\n  padding-left: 20px;\r\n}\r\n\r\naside ul {\r\n  padding: 0 0 15px 0;\r\n}\r\n\r\naside li {\r\n  list-style-type: none;\r\n  height: 40px;\r\n}\r\n\r\naside a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\naside span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content {\r\n  padding: 10px 20px;\r\n  margin-left: 20px;\r\n  width: calc(100vw - 200px);\r\n  min-height: calc(100vh - 50px);\r\n}\r\n\r\n#content button {\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n}\r\n\r\n#content button:hover {\r\n  cursor: pointer;\r\n}\r\n\r\n#content button:active {\r\n  transform: scale(.98);\r\n}\r\n\r\n#content .material-icons-outlined {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content ul {\r\n  margin-left: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n#content li {\r\n  list-style-type: none;\r\n  padding-top: 10px;\r\n}\r\n\r\nfooter {\r\n  background: #CCCCCC;\r\n  height: 50px;\r\n  width: 100%;\r\n  padding: 15px;\r\n  text-align: center;\r\n  font-size: .8em;\r\n}\r\n\r\nfooter a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\nfooter span {\r\n  vertical-align: top;\r\n}\r\n\r\n#githubLogo {\r\n  height: 14px;\r\n  width: 14px;\r\n  display: inline-block;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-size: contain;\r\n}\r\n\r\n.modal {\r\n  display: none;\r\n  position: absolute;\r\n  top: 20vh;\r\n  left: calc((100vw - 50vh)/2);\r\n  height: 50vh;\r\n  width: 50vh;\r\n  background: white;\r\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\r\n  border: 1px solid;\r\n  z-index: 3;\r\n}\r\n\r\n.modalContent {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n\r\n}\r\n\r\n.closeModal {\r\n  position: absolute;\r\n  right: 5px;\r\n  top: 5px;\r\n  cursor: pointer;\r\n}\r\n\r\n.modalForm {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n\r\ninput[type=text], input[type=date], input[type=checkbox] {\r\n  background: #CCCCCC;\r\n  color: black;\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px;\r\n}\r\n\r\ninput[type=submit] {\r\n  margin: 10px;\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n}\r\n\r\ninput::placeholder {\r\n  color: black;\r\n  font-size: .9em;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -607,12 +607,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "renderNewTask": () => (/* binding */ renderNewTask),
 /* harmony export */   "renderNewProject": () => (/* binding */ renderNewProject)
 /* harmony export */ });
-/* harmony import */ var _application_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
+/* harmony import */ var _application_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23);
 
+
+const content = document.querySelector('#content');
+const projectList = document.querySelector('#projectList');
+const taskModal = document.querySelector('#newTaskModal');
+const projectModal = document.querySelector('#newProjectModal');
 
 const render = (link) => {
-  const content = document.querySelector('#content');
-
   while (content.childElementCount) content.lastChild.remove();
 
   const headings = { today: 'Today tasks',
@@ -650,7 +653,6 @@ const render = (link) => {
 }
 
 const renderProject = (id) => {
-  const content = document.querySelector('#content');
   while (content.childElementCount) content.lastChild.remove();
   var name = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects()[+id.match(/\d+/)]
 
@@ -678,7 +680,6 @@ const renderProject = (id) => {
 }
 
 const renderProjectsMenu = () => {
-  const projectList = document.querySelector('#projectList');
   //while (projectList.childElementCount) content.lastChild.remove();
   var projects = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects();
   projects.forEach((project, i) => {
@@ -695,18 +696,113 @@ const renderProjectsMenu = () => {
 }
 
 const renderNewTask = () => {
-  //
+   taskModal.style.display = "block";
 }
 
 const renderNewProject = () => {
-  //
+  projectModal.style.display = "block";
 }
 
 
 
 
 /***/ }),
-/* 23 */,
+/* 23 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "changeStatus": () => (/* binding */ changeStatus),
+/* harmony export */   "createTask": () => (/* binding */ createTask),
+/* harmony export */   "getTask": () => (/* binding */ getTask),
+/* harmony export */   "updateTask": () => (/* binding */ updateTask),
+/* harmony export */   "deleteTask": () => (/* binding */ deleteTask),
+/* harmony export */   "todayTasks": () => (/* binding */ todayTasks),
+/* harmony export */   "weekTasks": () => (/* binding */ weekTasks),
+/* harmony export */   "allTasks": () => (/* binding */ allTasks),
+/* harmony export */   "importantTasks": () => (/* binding */ importantTasks),
+/* harmony export */   "projectTasks": () => (/* binding */ projectTasks),
+/* harmony export */   "allProjects": () => (/* binding */ allProjects),
+/* harmony export */   "createProject": () => (/* binding */ createProject)
+/* harmony export */ });
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(29);
+
+
+var tasks = [];
+var projects = ['Default'];
+
+function Task(id, title, dueDate, important, project) {
+    this.id = id;
+    this.title = title;
+    this.dueDate = dueDate;
+    this.important = important;
+    this.project = project;
+    this.complete = false;
+}
+
+function changeStatus(task) {
+  task.complete === false ?  task.complete = true : task.complete = false;
+}
+
+function createTask(title, dueDate=(new Date()), important=false, project=projects[0]) {
+  let id = tasks.length;
+  let task = new Task(id, title, dueDate, important, project);
+  tasks.push(task);
+  if (!projects.includes(task.project)) projects.push(task.project);
+}
+
+function getTask(id) {
+  return tasks.filter(task => task.id === id)[0];
+}
+
+function updateTask(task, properties) {
+  Object.keys(properties).forEach(property => {
+    task[property] = properties[property];
+    if (property === 'project' && !projects.includes(task.project)) projects.push(task.project);
+  });
+}
+
+function deleteTask(task) {
+  tasks.splice(task.id, 1);
+}
+
+function todayTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_0__.default)(task.dueDate)) };
+function weekTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate)) };
+function allTasks() { return tasks };
+function importantTasks() { return tasks.filter(task => task.important) };
+function projectTasks(name) { return tasks.filter(task => task.project === name) }
+function allProjects() { return projects };
+
+function createProject(title) {
+  projects.push(title);
+}
+
+createTask('Test1', new Date('2021-09-01'), true, 'Work');
+createTask('Test2', new Date('2021-07-31'), false, 'Work');
+createTask('Test3', new Date('2021-07-11'), true, 'Work');
+createTask('Test4', new Date('2021-07-31'), false, 'Work');
+createTask('Test5', undefined, true);
+changeStatus(tasks[2]);
+updateTask(tasks[0], {project: 'Home'});
+
+
+
+/*
+createTask('Test1', new Date('2021-09-01'), true, 'Work');
+createTask('Test2', new Date('2021-07-31'), false, 'Work');
+createTask('Test3', new Date('2021-07-11'), true, 'Work');
+createTask('Test4', new Date('2021-07-31'), false, 'Work');
+createTask('Test5', undefined, true);
+changeStatus(tasks[2]);
+updateTask(tasks[0], {project: 'Home'});
+
+console.log(projects);
+console.log(projectTasks('Work'));
+*/
+
+
+/***/ }),
 /* 24 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1104,103 +1200,6 @@ function toInteger(dirtyNumber) {
   return number < 0 ? Math.ceil(number) : Math.floor(number);
 }
 
-/***/ }),
-/* 33 */,
-/* 34 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "changeStatus": () => (/* binding */ changeStatus),
-/* harmony export */   "createTask": () => (/* binding */ createTask),
-/* harmony export */   "getTask": () => (/* binding */ getTask),
-/* harmony export */   "updateTask": () => (/* binding */ updateTask),
-/* harmony export */   "deleteTask": () => (/* binding */ deleteTask),
-/* harmony export */   "todayTasks": () => (/* binding */ todayTasks),
-/* harmony export */   "weekTasks": () => (/* binding */ weekTasks),
-/* harmony export */   "allTasks": () => (/* binding */ allTasks),
-/* harmony export */   "importantTasks": () => (/* binding */ importantTasks),
-/* harmony export */   "projectTasks": () => (/* binding */ projectTasks),
-/* harmony export */   "allProjects": () => (/* binding */ allProjects),
-/* harmony export */   "createProject": () => (/* binding */ createProject)
-/* harmony export */ });
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(29);
-
-
-var tasks = [];
-var projects = ['Default'];
-
-function Task(id, title, dueDate, important, project) {
-    this.id = id;
-    this.title = title;
-    this.dueDate = dueDate;
-    this.important = important;
-    this.project = project;
-    this.complete = false;
-}
-
-function changeStatus(task) {
-  task.complete === false ?  task.complete = true : task.complete = false;
-}
-
-function createTask(title, dueDate=(new Date()), important=false, project=projects[0]) {
-  let id = tasks.length;
-  let task = new Task(id, title, dueDate, important, project);
-  tasks.push(task);
-  if (!projects.includes(task.project)) projects.push(task.project);
-}
-
-function getTask(id) {
-  return tasks.filter(task => task.id === id)[0];
-}
-
-function updateTask(task, properties) {
-  Object.keys(properties).forEach(property => {
-    task[property] = properties[property];
-    if (property === 'project' && !projects.includes(task.project)) projects.push(task.project);
-  });
-}
-
-function deleteTask(task) {
-  tasks.splice(task.id, 1);
-}
-
-function todayTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_0__.default)(task.dueDate)) };
-function weekTasks() { return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate)) };
-function allTasks() { return tasks };
-function importantTasks() { return tasks.filter(task => task.important) };
-function projectTasks(name) { return tasks.filter(task => task.project === name) }
-function allProjects() { return projects };
-
-function createProject(title) {
-  projects.push(title);
-}
-
-createTask('Test1', new Date('2021-09-01'), true, 'Work');
-createTask('Test2', new Date('2021-07-31'), false, 'Work');
-createTask('Test3', new Date('2021-07-11'), true, 'Work');
-createTask('Test4', new Date('2021-07-31'), false, 'Work');
-createTask('Test5', undefined, true);
-changeStatus(tasks[2]);
-updateTask(tasks[0], {project: 'Home'});
-
-
-
-/*
-createTask('Test1', new Date('2021-09-01'), true, 'Work');
-createTask('Test2', new Date('2021-07-31'), false, 'Work');
-createTask('Test3', new Date('2021-07-11'), true, 'Work');
-createTask('Test4', new Date('2021-07-31'), false, 'Work');
-createTask('Test5', undefined, true);
-changeStatus(tasks[2]);
-updateTask(tasks[0], {project: 'Home'});
-
-console.log(projects);
-console.log(projectTasks('Work'));
-*/
-
-
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -1334,13 +1333,11 @@ npb.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.r
 (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderProjectsMenu)();
 
 //task modal control
-ntb.onclick = function() { taskModal.style.display = "block"; }
 taskModalClose.onclick = function() {
   taskModal.style.display = "none";
 }
 
 //project modal control
-npb.onclick = function() { projectModal.style.display = "block"; }
 projectModalClose.onclick = function() {
   projectModal.style.display = "none";
 }
