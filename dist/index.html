@@ -101,6 +101,24 @@ settings
       </div>
     </div>
 
+    <div id="settingsModal" class="modal">
+      <div class="modalContent">
+        <button class="closeModal" id="closeSettingsModal">&times;</button>
+        <form class='modalForm' id='settingsForm'>
+          <h2>Settings</h2>
+          <h4>Color theme</h4>
+          <label for="theme1">Red</label>
+          <input type="radio" id="theme1" name="theme" value="red" checked><br>
+          <label for="theme1">Blue</label>
+          <input type="radio" id="theme2" name="theme" value="blue"><br>
+          <label for="theme1">Green</label>
+          <input type="radio" id="theme3" name="theme" value="green"><br>
+          <input type="submit" value="Save"><br><br><br>
+          <p>Delete all data?<button id=deleteAll>Delete</button></p>
+        </form>
+      </div>
+    </div>
+
     <script src="bundle.js"></script>
   </body>
 </html>

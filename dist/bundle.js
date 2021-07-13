@@ -585,7 +585,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_GitHub_Mark_32px_png__WEBPACK_IMPORTED_MODULE_2__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n  font-family: 'Inconsolata';\n}\n\nnav {\n  position: fixed;\n  top: 0;\n  height: 50px;\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  background-color: #F03C5D;\n  padding: 10px;\n  z-index: 2;\n}\n\nnav a {\n  text-decoration: none;\n  color: white;\n  padding: 10px;\n}\n\nnav span {\n  vertical-align: middle;\n}\n\n#logo {\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1.3em;\n}\n\n#mainContent {\n  margin-top: 50px;\n  display: flex;\n}\n\naside {\n  width: 200px;\n  border-right: 1px #CCCCCC solid;\n  font-size: 1.2em;\n  padding-left: 20px;\n}\n\naside ul {\n  padding: 0 0 15px 0;\n}\n\naside li {\n  list-style-type: none;\n  height: 40px;\n}\n\naside a {\n  text-decoration: none;\n  color: black;\n}\n\naside span {\n  vertical-align: middle;\n}\n\n#content {\n  padding: 10px 20px;\n  margin-left: 20px;\n  width: calc(100vw - 200px);\n  min-height: calc(100vh - 50px);\n}\n\n#content button {\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n  cursor: pointer;\n}\n\n#content button:active {\n  transform: scale(.98);\n}\n\n#content .material-icons-outlined {\n  vertical-align: middle;\n}\n\n#content ul {\n  margin-left: 0;\n  padding-left: 0;\n}\n\n#content li {\n  list-style-type: none;\n  padding-top: 10px;\n}\n\n#content a {\n  cursor: pointer;\n}\n\nfooter {\n  background: #CCCCCC;\n  height: 50px;\n  width: 100%;\n  padding: 15px;\n  text-align: center;\n  font-size: .8em;\n}\n\nfooter a {\n  text-decoration: none;\n  color: black;\n}\n\nfooter span {\n  vertical-align: top;\n}\n\n#githubLogo {\n  height: 14px;\n  width: 14px;\n  display: inline-block;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n}\n\n.modal {\n  display: none;\n  position: absolute;\n  top: 15vh;\n  left: calc((100vw - 50vh)/2);\n  height: 60vh;\n  width: 50vh;\n  background: white;\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\n  border: 1px solid;\n  z-index: 3;\n}\n\n.modalContent {\n  width: 100%;\n  height: 100%;\n  position: relative;\n\n}\n\n.closeModal {\n  position: absolute;\n  right: 5px;\n  top: 5px;\n  cursor: pointer;\n}\n\n.modalForm {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n\ninput[type=text], input[type=date], input[type=checkbox], select {\n  background: #CCCCCC;\n  color: black;\n  border: 0;\n  padding: 10px;\n  margin: 10px;\n}\n\ninput[type=submit] {\n  color: white;\n  background: #F03C5D;\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n  cursor: pointer;\n}\n\ninput[type=submit]:active {\n  transform: scale(.98);\n}\n\ninput::placeholder {\n  color: black;\n  font-size: .9em;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Inconsolata', monospace;\r\n}\r\n\r\nnav {\r\n  position: fixed;\r\n  top: 0;\r\n  height: 50px;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: flex-start;\r\n  background-color: #F03C5D;\r\n  padding: 10px;\r\n  z-index: 2;\r\n}\r\n\r\nnav a {\r\n  text-decoration: none;\r\n  color: white;\r\n  padding: 10px;\r\n}\r\n\r\nnav span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#logo {\r\n  text-transform: uppercase;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n}\r\n\r\n#mainContent {\r\n  margin-top: 50px;\r\n  display: flex;\r\n}\r\n\r\naside {\r\n  width: 200px;\r\n  border-right: 1px #CCCCCC solid;\r\n  font-size: 1.2em;\r\n  padding-left: 20px;\r\n}\r\n\r\naside ul {\r\n  padding: 0 0 15px 0;\r\n}\r\n\r\naside li {\r\n  list-style-type: none;\r\n  height: 40px;\r\n}\r\n\r\naside a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\naside span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content {\r\n  padding: 10px 20px;\r\n  margin-left: 20px;\r\n  width: calc(100vw - 200px);\r\n  min-height: calc(100vh - 50px);\r\n}\r\n\r\n#content button {\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n#content button:active {\r\n  transform: scale(.98);\r\n}\r\n\r\n#content .material-icons-outlined {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content ul {\r\n  margin-left: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n#content li {\r\n  list-style-type: none;\r\n  padding-top: 10px;\r\n}\r\n\r\n#content a {\r\n  cursor: pointer;\r\n}\r\n\r\nfooter {\r\n  background: #CCCCCC;\r\n  height: 50px;\r\n  width: 100%;\r\n  padding: 15px;\r\n  text-align: center;\r\n  font-size: .8em;\r\n}\r\n\r\nfooter a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\nfooter span {\r\n  vertical-align: top;\r\n}\r\n\r\n#githubLogo {\r\n  height: 14px;\r\n  width: 14px;\r\n  display: inline-block;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-size: contain;\r\n}\r\n\r\n.modal {\r\n  display: none;\r\n  position: absolute;\r\n  top: 15vh;\r\n  left: calc((100vw - 50vh)/2);\r\n  height: 60vh;\r\n  width: 50vh;\r\n  background: white;\r\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\r\n  border: 1px solid;\r\n  z-index: 3;\r\n}\r\n\r\n.modalContent {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n\r\n}\r\n\r\n.closeModal {\r\n  position: absolute;\r\n  right: 5px;\r\n  top: 5px;\r\n  cursor: pointer;\r\n}\r\n\r\n.modalForm {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n\r\ninput[type=text], input[type=date], input[type=checkbox], select {\r\n  background: #CCCCCC;\r\n  color: black;\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px;\r\n}\r\n\r\ninput[type=submit] {\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\ninput[type=submit]:active {\r\n  transform: scale(.98);\r\n}\r\n\r\ninput::placeholder {\r\n  color: black;\r\n  font-size: .9em;\r\n}\r\n\r\n#deleteAll {\r\n  color: white;\r\n  font-weight: bold;\r\n  background: red;\r\n  padding: 4px;\r\n  border: 0;\r\n  border-radius: 4px;\r\n  font-size: .8em;\r\n  margin-left: 10px;\r\n  cursor: pointer;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -605,7 +605,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "renderProjectsMenu": () => (/* binding */ renderProjectsMenu),
 /* harmony export */   "renderNewTask": () => (/* binding */ renderNewTask),
-/* harmony export */   "renderNewProject": () => (/* binding */ renderNewProject)
+/* harmony export */   "renderNewProject": () => (/* binding */ renderNewProject),
+/* harmony export */   "renderSettings": () => (/* binding */ renderSettings)
 /* harmony export */ });
 /* harmony import */ var _application_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23);
 
@@ -615,6 +616,7 @@ const projectList = document.querySelector('#projectList');
 const newTaskModal = document.querySelector('#newTaskModal');
 const editTaskModal = document.querySelector('#editTaskModal');
 const projectModal = document.querySelector('#newProjectModal');
+const settingsModal = document.querySelector('#settingsModal');
 
 const render = (link) => {
   while (content.childElementCount) content.lastChild.remove();
@@ -695,8 +697,7 @@ const renderHelper = (tasks) => {
 
     a.addEventListener('click', () => renderEditTask(task));
     button.addEventListener('click', () => {
-      confirm('Are you sure?');
-      _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteTask(task);
+      if (confirm('Are you sure?')) _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteTask(task);
       render('today');
       }
     );
@@ -768,6 +769,9 @@ const renderEditTask = (task) => {
      select.appendChild(option);
    })
    form.elements.project.defaultValue = task.project;
+   for (let option of form.elements.project.options) {
+     if (option.value === task.project) option.selected = true;
+   }
    form.addEventListener('submit', () => {
      var changed = {};
      [form.elements.title, form.elements.dueDate, form.elements.project].forEach(el => {
@@ -791,6 +795,29 @@ const renderNewProject = () => {
   });
 }
 
+const renderSettings = () => {
+  settingsModal.style.display = "block";
+  const form = document.querySelector('#settingsForm');
+  form.addEventListener('submit', () => {
+    let color = document.querySelector('input[name="theme"]:checked').value;
+    changeTheme(color);
+    event.preventDefault()
+    return false;
+  });
+  const deleteAllButton = document.querySelector('#deleteAll');
+  deleteAllButton.addEventListener('click', () => {
+    if (confirm('Are you sure?')) _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteAll(); render(today);
+  })
+}
+
+const changeTheme = (color) => {
+  const toChange = [ document.querySelector('nav'),
+                     document.querySelector('#content>button'),
+                     document.querySelector('input[type=submit]') ]
+  const COLORS = { red: '#F03C5D', blue: '#4074cc', green: '#23c175' }
+  toChange.forEach(el => el.style.background = COLORS[color]);
+}
+
 
 
 
@@ -810,11 +837,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "importantTasks": () => (/* binding */ importantTasks),
 /* harmony export */   "projectTasks": () => (/* binding */ projectTasks),
 /* harmony export */   "allProjects": () => (/* binding */ allProjects),
-/* harmony export */   "createProject": () => (/* binding */ createProject)
+/* harmony export */   "createProject": () => (/* binding */ createProject),
+/* harmony export */   "deleteAll": () => (/* binding */ deleteAll)
 /* harmony export */ });
 /* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(33);
-/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(29);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(29);
+/* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(31);
 
 
 var tasks = JSON.parse(localStorage.getItem('tasks'));
@@ -901,6 +929,11 @@ function allProjects() {
 function createProject(title) {
   projects.push(title);
   localStorage.setItem('projects', JSON.stringify(projects));
+}
+
+function deleteAll() {
+  localStorage.setItem('tasks', JSON.stringify([]));
+  localStorage.setItem('projects', JSON.stringify(['Default']));
 }
 
 
@@ -1115,204 +1148,9 @@ function toDate(argument) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ isThisWeek)
-/* harmony export */ });
-/* harmony import */ var _isSameWeek_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
-/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
-
-
-
-/**
- * @name isThisWeek
- * @category Week Helpers
- * @summary Is the given date in the same week as the current date?
- * @pure false
- *
- * @description
- * Is the given date in the same week as the current date?
- *
- * > ⚠️ Please note that this function is not present in the FP submodule as
- * > it uses `Date.now()` internally hence impure and can't be safely curried.
- *
- * ### v2.0.0 breaking changes:
- *
- * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
- *
- * @param {Date|Number} date - the date to check
- * @param {Object} [options] - the object with options
- * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
- * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
- * @returns {Boolean} the date is in this week
- * @throws {TypeError} 1 argument required
- * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
- *
- * @example
- * // If today is 25 September 2014, is 21 September 2014 in this week?
- * var result = isThisWeek(new Date(2014, 8, 21))
- * //=> true
- *
- * @example
- * // If today is 25 September 2014 and week starts with Monday
- * // is 21 September 2014 in this week?
- * var result = isThisWeek(new Date(2014, 8, 21), { weekStartsOn: 1 })
- * //=> false
- */
-function isThisWeek(dirtyDate, options) {
-  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
-  return (0,_isSameWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate, Date.now(), options);
-}
-
-/***/ }),
-/* 30 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ isSameWeek)
-/* harmony export */ });
-/* harmony import */ var _startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
-/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
-
-
-
-/**
- * @name isSameWeek
- * @category Week Helpers
- * @summary Are the given dates in the same week?
- *
- * @description
- * Are the given dates in the same week?
- *
- * ### v2.0.0 breaking changes:
- *
- * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
- *
- * @param {Date|Number} dateLeft - the first date to check
- * @param {Date|Number} dateRight - the second date to check
- * @param {Object} [options] - an object with options.
- * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
- * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
- * @returns {Boolean} the dates are in the same week
- * @throws {TypeError} 2 arguments required
- * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
- *
- * @example
- * // Are 31 August 2014 and 4 September 2014 in the same week?
- * var result = isSameWeek(new Date(2014, 7, 31), new Date(2014, 8, 4))
- * //=> true
- *
- * @example
- * // If week starts with Monday,
- * // are 31 August 2014 and 4 September 2014 in the same week?
- * var result = isSameWeek(new Date(2014, 7, 31), new Date(2014, 8, 4), {
- *   weekStartsOn: 1
- * })
- * //=> false
- */
-function isSameWeek(dirtyDateLeft, dirtyDateRight, dirtyOptions) {
-  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(2, arguments);
-  var dateLeftStartOfWeek = (0,_startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateLeft, dirtyOptions);
-  var dateRightStartOfWeek = (0,_startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateRight, dirtyOptions);
-  return dateLeftStartOfWeek.getTime() === dateRightStartOfWeek.getTime();
-}
-
-/***/ }),
-/* 31 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ startOfWeek)
-/* harmony export */ });
-/* harmony import */ var _toDate_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28);
-/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
-/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
-
-
-
-/**
- * @name startOfWeek
- * @category Week Helpers
- * @summary Return the start of a week for the given date.
- *
- * @description
- * Return the start of a week for the given date.
- * The result will be in the local timezone.
- *
- * ### v2.0.0 breaking changes:
- *
- * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
- *
- * @param {Date|Number} date - the original date
- * @param {Object} [options] - an object with options.
- * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
- * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
- * @returns {Date} the start of a week
- * @throws {TypeError} 1 argument required
- * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
- *
- * @example
- * // The start of a week for 2 September 2014 11:55:00:
- * const result = startOfWeek(new Date(2014, 8, 2, 11, 55, 0))
- * //=> Sun Aug 31 2014 00:00:00
- *
- * @example
- * // If the week starts on Monday, the start of the week for 2 September 2014 11:55:00:
- * const result = startOfWeek(new Date(2014, 8, 2, 11, 55, 0), { weekStartsOn: 1 })
- * //=> Mon Sep 01 2014 00:00:00
- */
-
-function startOfWeek(dirtyDate, dirtyOptions) {
-  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
-  var options = dirtyOptions || {};
-  var locale = options.locale;
-  var localeWeekStartsOn = locale && locale.options && locale.options.weekStartsOn;
-  var defaultWeekStartsOn = localeWeekStartsOn == null ? 0 : (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(localeWeekStartsOn);
-  var weekStartsOn = options.weekStartsOn == null ? defaultWeekStartsOn : (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(options.weekStartsOn); // Test if weekStartsOn is between 0 and 6 _and_ is not NaN
-
-  if (!(weekStartsOn >= 0 && weekStartsOn <= 6)) {
-    throw new RangeError('weekStartsOn must be between 0 and 6 inclusively');
-  }
-
-  var date = (0,_toDate_index_js__WEBPACK_IMPORTED_MODULE_2__.default)(dirtyDate);
-  var day = date.getDay();
-  var diff = (day < weekStartsOn ? 7 : 0) + day - weekStartsOn;
-  date.setDate(date.getDate() - diff);
-  date.setHours(0, 0, 0, 0);
-  return date;
-}
-
-/***/ }),
-/* 32 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ toInteger)
-/* harmony export */ });
-function toInteger(dirtyNumber) {
-  if (dirtyNumber === null || dirtyNumber === true || dirtyNumber === false) {
-    return NaN;
-  }
-
-  var number = Number(dirtyNumber);
-
-  if (isNaN(number)) {
-    return number;
-  }
-
-  return number < 0 ? Math.ceil(number) : Math.floor(number);
-}
-
-/***/ }),
-/* 33 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ parseISO)
 /* harmony export */ });
-/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
+/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
 /* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
 
 
@@ -1606,6 +1444,201 @@ function validateTimezone(_hours, minutes) {
   return minutes >= 0 && minutes <= 59;
 }
 
+/***/ }),
+/* 30 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ toInteger)
+/* harmony export */ });
+function toInteger(dirtyNumber) {
+  if (dirtyNumber === null || dirtyNumber === true || dirtyNumber === false) {
+    return NaN;
+  }
+
+  var number = Number(dirtyNumber);
+
+  if (isNaN(number)) {
+    return number;
+  }
+
+  return number < 0 ? Math.ceil(number) : Math.floor(number);
+}
+
+/***/ }),
+/* 31 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isThisWeek)
+/* harmony export */ });
+/* harmony import */ var _isSameWeek_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+
+/**
+ * @name isThisWeek
+ * @category Week Helpers
+ * @summary Is the given date in the same week as the current date?
+ * @pure false
+ *
+ * @description
+ * Is the given date in the same week as the current date?
+ *
+ * > ⚠️ Please note that this function is not present in the FP submodule as
+ * > it uses `Date.now()` internally hence impure and can't be safely curried.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the date to check
+ * @param {Object} [options] - the object with options
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @returns {Boolean} the date is in this week
+ * @throws {TypeError} 1 argument required
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ *
+ * @example
+ * // If today is 25 September 2014, is 21 September 2014 in this week?
+ * var result = isThisWeek(new Date(2014, 8, 21))
+ * //=> true
+ *
+ * @example
+ * // If today is 25 September 2014 and week starts with Monday
+ * // is 21 September 2014 in this week?
+ * var result = isThisWeek(new Date(2014, 8, 21), { weekStartsOn: 1 })
+ * //=> false
+ */
+function isThisWeek(dirtyDate, options) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  return (0,_isSameWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDate, Date.now(), options);
+}
+
+/***/ }),
+/* 32 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isSameWeek)
+/* harmony export */ });
+/* harmony import */ var _startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(33);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+
+/**
+ * @name isSameWeek
+ * @category Week Helpers
+ * @summary Are the given dates in the same week?
+ *
+ * @description
+ * Are the given dates in the same week?
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} dateLeft - the first date to check
+ * @param {Date|Number} dateRight - the second date to check
+ * @param {Object} [options] - an object with options.
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @returns {Boolean} the dates are in the same week
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ *
+ * @example
+ * // Are 31 August 2014 and 4 September 2014 in the same week?
+ * var result = isSameWeek(new Date(2014, 7, 31), new Date(2014, 8, 4))
+ * //=> true
+ *
+ * @example
+ * // If week starts with Monday,
+ * // are 31 August 2014 and 4 September 2014 in the same week?
+ * var result = isSameWeek(new Date(2014, 7, 31), new Date(2014, 8, 4), {
+ *   weekStartsOn: 1
+ * })
+ * //=> false
+ */
+function isSameWeek(dirtyDateLeft, dirtyDateRight, dirtyOptions) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(2, arguments);
+  var dateLeftStartOfWeek = (0,_startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateLeft, dirtyOptions);
+  var dateRightStartOfWeek = (0,_startOfWeek_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyDateRight, dirtyOptions);
+  return dateLeftStartOfWeek.getTime() === dateRightStartOfWeek.getTime();
+}
+
+/***/ }),
+/* 33 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ startOfWeek)
+/* harmony export */ });
+/* harmony import */ var _toDate_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28);
+/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(30);
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
+
+
+
+/**
+ * @name startOfWeek
+ * @category Week Helpers
+ * @summary Return the start of a week for the given date.
+ *
+ * @description
+ * Return the start of a week for the given date.
+ * The result will be in the local timezone.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Date|Number} date - the original date
+ * @param {Object} [options] - an object with options.
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @returns {Date} the start of a week
+ * @throws {TypeError} 1 argument required
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ *
+ * @example
+ * // The start of a week for 2 September 2014 11:55:00:
+ * const result = startOfWeek(new Date(2014, 8, 2, 11, 55, 0))
+ * //=> Sun Aug 31 2014 00:00:00
+ *
+ * @example
+ * // If the week starts on Monday, the start of the week for 2 September 2014 11:55:00:
+ * const result = startOfWeek(new Date(2014, 8, 2, 11, 55, 0), { weekStartsOn: 1 })
+ * //=> Mon Sep 01 2014 00:00:00
+ */
+
+function startOfWeek(dirtyDate, dirtyOptions) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var options = dirtyOptions || {};
+  var locale = options.locale;
+  var localeWeekStartsOn = locale && locale.options && locale.options.weekStartsOn;
+  var defaultWeekStartsOn = localeWeekStartsOn == null ? 0 : (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(localeWeekStartsOn);
+  var weekStartsOn = options.weekStartsOn == null ? defaultWeekStartsOn : (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(options.weekStartsOn); // Test if weekStartsOn is between 0 and 6 _and_ is not NaN
+
+  if (!(weekStartsOn >= 0 && weekStartsOn <= 6)) {
+    throw new RangeError('weekStartsOn must be between 0 and 6 inclusively');
+  }
+
+  var date = (0,_toDate_index_js__WEBPACK_IMPORTED_MODULE_2__.default)(dirtyDate);
+  var day = date.getDay();
+  var diff = (day < weekStartsOn ? 7 : 0) + day - weekStartsOn;
+  date.setDate(date.getDate() - diff);
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
 /***/ })
 /******/ 	]);
 /************************************************************************/
@@ -1723,12 +1756,15 @@ const sidelinks = document.querySelectorAll('.sidelink');
 const logo = document.querySelector('#logo');
 const ntb = document.querySelector('#newtask');
 const npb = document.querySelector('#newproject');
+const sb = document.querySelector('#settings');
 const newTaskModal = document.querySelector('#newTaskModal');
 const editTaskModal = document.querySelector('#editTaskModal');
 const projectModal = document.querySelector('#newProjectModal');
+const settingsModal = document.querySelector('#settingsModal');
 const newModalClose = document.querySelector('#closeNewTaskModal');
 const editModalClose = document.querySelector('#closeEditTaskModal');
 const projectModalClose = document.querySelector('#closeProjectModal');
+const settingModalClose = document.querySelector('#closeSettingsModal');
 
 sidelinks.forEach((a) => {
   a.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)(a.id));
@@ -1737,12 +1773,14 @@ sidelinks.forEach((a) => {
 logo.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)('today'));
 ntb.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderNewTask)());
 npb.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderNewProject)());
+sb.addEventListener('click', () => (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderSettings)());
 
 (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderProjectsMenu)();
 
 newModalClose.addEventListener('click', () => newTaskModal.style.display = "none");
 editModalClose.addEventListener('click', () => editTaskModal.style.display = "none");
 projectModalClose.addEventListener('click', () => projectModal.style.display = "none");
+settingModalClose.addEventListener('click', () => settingsModal.style.display = "none");
 
 window.onclick = function(event) {
   if (event.target == newTaskModal) newTaskModal.style.display = "none";

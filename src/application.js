@@ -86,6 +86,11 @@ function createProject(title) {
   localStorage.setItem('projects', JSON.stringify(projects));
 }
 
+function deleteAll() {
+  localStorage.setItem('tasks', JSON.stringify([]));
+  localStorage.setItem('projects', JSON.stringify(['Default']));
+}
+
 export { changeStatus,
          createTask,
          updateTask,
@@ -96,4 +101,5 @@ export { changeStatus,
          importantTasks,
          projectTasks,
          allProjects,
-         createProject}
+         createProject,
+         deleteAll }

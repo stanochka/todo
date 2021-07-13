@@ -5,6 +5,7 @@ const projectList = document.querySelector('#projectList');
 const newTaskModal = document.querySelector('#newTaskModal');
 const editTaskModal = document.querySelector('#editTaskModal');
 const projectModal = document.querySelector('#newProjectModal');
+const settingsModal = document.querySelector('#settingsModal');
 
 const render = (link) => {
   while (content.childElementCount) content.lastChild.remove();
@@ -85,8 +86,7 @@ const renderHelper = (tasks) => {
 
     a.addEventListener('click', () => renderEditTask(task));
     button.addEventListener('click', () => {
-      confirm('Are you sure?');
-      app.deleteTask(task);
+      if (confirm('Are you sure?')) app.deleteTask(task);
       render('today');
       }
     );
@@ -158,6 +158,9 @@ const renderEditTask = (task) => {
      select.appendChild(option);
    })
    form.elements.project.defaultValue = task.project;
+   for (let option of form.elements.project.options) {
+     if (option.value === task.project) option.selected = true;
+   }
    form.addEventListener('submit', () => {
      var changed = {};
      [form.elements.title, form.elements.dueDate, form.elements.project].forEach(el => {
@@ -181,4 +184,27 @@ const renderNewProject = () => {
   });
 }
 
-export { render, renderProjectsMenu, renderNewTask, renderNewProject }
+const renderSettings = () => {
+  settingsModal.style.display = "block";
+  const form = document.querySelector('#settingsForm');
+  form.addEventListener('submit', () => {
+    let color = document.querySelector('input[name="theme"]:checked').value;
+    changeTheme(color);
+    event.preventDefault()
+    return false;
+  });
+  const deleteAllButton = document.querySelector('#deleteAll');
+  deleteAllButton.addEventListener('click', () => {
+    if (confirm('Are you sure?')) app.deleteAll(); render(today);
+  })
+}
+
+const changeTheme = (color) => {
+  const toChange = [ document.querySelector('nav'),
+                     document.querySelector('#content>button'),
+                     document.querySelector('input[type=submit]') ]
+  const COLORS = { red: '#F03C5D', blue: '#4074cc', green: '#23c175' }
+  toChange.forEach(el => el.style.background = COLORS[color]);
+}
+
+export { render, renderProjectsMenu, renderNewTask, renderNewProject, renderSettings }
