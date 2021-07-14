@@ -155,6 +155,7 @@ const renderNewTask = () => {
      let important = form.elements.important.checked;
      let project = form.elements.project.value;
      app.createTask(title, dueDate, important, project);
+     return false;
    });
 }
 
@@ -189,6 +190,7 @@ const renderEditTask = (task) => {
      });
      if (form.elements.important.checked !== imp) changed['important'] = form.elements.important.checked;
      app.updateTask(task, changed);
+     return false;
    });
 }
 
@@ -198,6 +200,7 @@ const renderNewProject = () => {
   form.addEventListener('submit', () => {
     let title = form.elements.title.value;
     app.createProject(title);
+    return false;
   });
 }
 
@@ -207,6 +210,7 @@ const renderSettings = () => {
   form.addEventListener('submit', () => {
     let color = document.querySelector('input[name="theme"]:checked').value;
     changeTheme(color);
+    return false;
   });
   const deleteAllButton = document.querySelector('#deleteAll');
   deleteAllButton.addEventListener('click', () => {
