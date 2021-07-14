@@ -6,6 +6,7 @@ Made in javascript, built with Webpack.
 - See today/this week/all tasks (sorted by due date);
 - See tasks marked as 'important';
 - Add/delete projects;
+- See tasks by project;
 - Change color theme;
 - Delete all data with one button.
 
