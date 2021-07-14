@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+:root {
+  --themeColor: #F03C5D;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,7 +25,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #F03C5D;
+  background-color: var(--themeColor);
   padding: 10px;
   z-index: 2;
 }
@@ -80,7 +85,7 @@ aside span {
 
 #content button {
   color: white;
-  background: #F03C5D;
+  background: var(--themeColor);
   padding: 10px;
   border: 0;
   border-radius: 7px;
@@ -182,7 +187,7 @@ input[type=text], input[type=date], input[type=checkbox], select {
 
 input[type=submit] {
   color: white;
-  background: #F03C5D;
+  background: var(--themeColor);
   padding: 10px;
   border: 0;
   border-radius: 7px;

@@ -27,6 +27,7 @@ const render = (link) => {
   var tasks = funcs[link]();
 
   renderHelper(tasks);
+  localStorage.setItem('currentPage', link);
 }
 
 const renderProject = (id) => {
@@ -35,11 +36,27 @@ const renderProject = (id) => {
 
   var h1 = document.createElement('h1');
   h1.textContent = name;
+  if (name !== 'Default') {
+    var deleteProjectButton = document.createElement('button');
+    deleteProjectButton.style = 'padding: 4px; font-size: .4em; margin-left: 15px; border-radius: 4px; background: red;'
+    deleteProjectButton.textContent = 'Delete project';
+    h1.appendChild(deleteProjectButton);
+
+    deleteProjectButton.addEventListener('click', () => {
+      if (confirm('Are you sure?')) {
+        app.deleteProject(name);
+        renderProject('Default');
+        renderProjectsMenu();
+      }
+    });
+  }
+
   content.appendChild(h1);
 
   var tasks = app.projectTasks(name);
 
   renderHelper(tasks);
+  localStorage.setItem('currentPage', id);
 }
 
 const renderHelper = (tasks) => {
@@ -68,7 +85,7 @@ const renderHelper = (tasks) => {
     span.style['font-size'] = '1.2em'
     task.important ? span.style.display = 'inline-block' : span.style.display = 'none';
     let button = document.createElement('button');
-    button.style = 'padding: 4px; font-size: .7em; margin-left: 10px; border-radius: 4px;'
+    button.style = 'padding: 4px; font-size: .7em; margin-left: 10px; border-radius: 4px; background: red;'
     button.textContent = 'Delete';
     li.appendChild(a);
     li.appendChild(span);
@@ -77,7 +94,6 @@ const renderHelper = (tasks) => {
 
     checkbox.addEventListener('change', () => {
       app.changeStatus(task);
-      console.log(task.complete);
       task.complete ?
       a.style['text-decoration'] = 'line-through' :
       a.style['text-decoration'] = 'none';
@@ -86,10 +102,12 @@ const renderHelper = (tasks) => {
 
     a.addEventListener('click', () => renderEditTask(task));
     button.addEventListener('click', () => {
-      if (confirm('Are you sure?')) app.deleteTask(task);
-      render('today');
+      if (confirm('Are you sure?')) {
+        app.deleteTask(task);
+        let page = localStorage.getItem('currentPage');
+        /project\d+/.test(page) ? renderProject(page) : render(page);
       }
-    );
+  });
 
   })
   }
@@ -97,6 +115,7 @@ const renderHelper = (tasks) => {
 
   var b = document.createElement('button');
   b.classList.add('newTaskButton');
+  b.id = 'newTaskButton';
   b.innerHTML = 'New task <span class="material-icons-outlined">add_circle_outline</span>';
   content.appendChild(b);
 
@@ -104,6 +123,7 @@ const renderHelper = (tasks) => {
 }
 
 const renderProjectsMenu = () => {
+  while (projectList.childElementCount > 1) projectList.lastChild.remove();
   var projects = app.allProjects();
   projects.forEach((project, i) => {
     let li = document.createElement('li');
@@ -135,7 +155,6 @@ const renderNewTask = () => {
      let important = form.elements.important.checked;
      let project = form.elements.project.value;
      app.createTask(title, dueDate, important, project);
-     return false;
    });
 }
 
@@ -170,7 +189,6 @@ const renderEditTask = (task) => {
      });
      if (form.elements.important.checked !== imp) changed['important'] = form.elements.important.checked;
      app.updateTask(task, changed);
-     return false;
    });
 }
 
@@ -180,7 +198,6 @@ const renderNewProject = () => {
   form.addEventListener('submit', () => {
     let title = form.elements.title.value;
     app.createProject(title);
-    return false;
   });
 }
 
@@ -190,21 +207,21 @@ const renderSettings = () => {
   form.addEventListener('submit', () => {
     let color = document.querySelector('input[name="theme"]:checked').value;
     changeTheme(color);
-    event.preventDefault()
-    return false;
   });
   const deleteAllButton = document.querySelector('#deleteAll');
   deleteAllButton.addEventListener('click', () => {
-    if (confirm('Are you sure?')) app.deleteAll(); render(today);
+    if (confirm('Are you sure?')) {
+      app.deleteAll();
+      render('today');
+    }
   })
 }
 
 const changeTheme = (color) => {
-  const toChange = [ document.querySelector('nav'),
-                     document.querySelector('#content>button'),
-                     document.querySelector('input[type=submit]') ]
+  let root = document.documentElement;
   const COLORS = { red: '#F03C5D', blue: '#4074cc', green: '#23c175' }
-  toChange.forEach(el => el.style.background = COLORS[color]);
+  root.style.setProperty('--themeColor', COLORS[color]);
+  localStorage.setItem('themeColor', color);
 }
 
-export { render, renderProjectsMenu, renderNewTask, renderNewProject, renderSettings }
+export { render, renderProject, renderProjectsMenu, renderNewTask, renderNewProject, renderSettings, changeTheme }

@@ -585,7 +585,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_GitHub_Mark_32px_png__WEBPACK_IMPORTED_MODULE_2__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Inconsolata', monospace;\r\n}\r\n\r\nnav {\r\n  position: fixed;\r\n  top: 0;\r\n  height: 50px;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: flex-start;\r\n  background-color: #F03C5D;\r\n  padding: 10px;\r\n  z-index: 2;\r\n}\r\n\r\nnav a {\r\n  text-decoration: none;\r\n  color: white;\r\n  padding: 10px;\r\n}\r\n\r\nnav span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#logo {\r\n  text-transform: uppercase;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n}\r\n\r\n#mainContent {\r\n  margin-top: 50px;\r\n  display: flex;\r\n}\r\n\r\naside {\r\n  width: 200px;\r\n  border-right: 1px #CCCCCC solid;\r\n  font-size: 1.2em;\r\n  padding-left: 20px;\r\n}\r\n\r\naside ul {\r\n  padding: 0 0 15px 0;\r\n}\r\n\r\naside li {\r\n  list-style-type: none;\r\n  height: 40px;\r\n}\r\n\r\naside a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\naside span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content {\r\n  padding: 10px 20px;\r\n  margin-left: 20px;\r\n  width: calc(100vw - 200px);\r\n  min-height: calc(100vh - 50px);\r\n}\r\n\r\n#content button {\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n#content button:active {\r\n  transform: scale(.98);\r\n}\r\n\r\n#content .material-icons-outlined {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content ul {\r\n  margin-left: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n#content li {\r\n  list-style-type: none;\r\n  padding-top: 10px;\r\n}\r\n\r\n#content a {\r\n  cursor: pointer;\r\n}\r\n\r\nfooter {\r\n  background: #CCCCCC;\r\n  height: 50px;\r\n  width: 100%;\r\n  padding: 15px;\r\n  text-align: center;\r\n  font-size: .8em;\r\n}\r\n\r\nfooter a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\nfooter span {\r\n  vertical-align: top;\r\n}\r\n\r\n#githubLogo {\r\n  height: 14px;\r\n  width: 14px;\r\n  display: inline-block;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-size: contain;\r\n}\r\n\r\n.modal {\r\n  display: none;\r\n  position: absolute;\r\n  top: 15vh;\r\n  left: calc((100vw - 50vh)/2);\r\n  height: 60vh;\r\n  width: 50vh;\r\n  background: white;\r\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\r\n  border: 1px solid;\r\n  z-index: 3;\r\n}\r\n\r\n.modalContent {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n\r\n}\r\n\r\n.closeModal {\r\n  position: absolute;\r\n  right: 5px;\r\n  top: 5px;\r\n  cursor: pointer;\r\n}\r\n\r\n.modalForm {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n\r\ninput[type=text], input[type=date], input[type=checkbox], select {\r\n  background: #CCCCCC;\r\n  color: black;\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px;\r\n}\r\n\r\ninput[type=submit] {\r\n  color: white;\r\n  background: #F03C5D;\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\ninput[type=submit]:active {\r\n  transform: scale(.98);\r\n}\r\n\r\ninput::placeholder {\r\n  color: black;\r\n  font-size: .9em;\r\n}\r\n\r\n#deleteAll {\r\n  color: white;\r\n  font-weight: bold;\r\n  background: red;\r\n  padding: 4px;\r\n  border: 0;\r\n  border-radius: 4px;\r\n  font-size: .8em;\r\n  margin-left: 10px;\r\n  cursor: pointer;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n  --themeColor: #F03C5D;\r\n\r\n}\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Inconsolata', monospace;\r\n}\r\n\r\nnav {\r\n  position: fixed;\r\n  top: 0;\r\n  height: 50px;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: flex-start;\r\n  background-color: var(--themeColor);\r\n  padding: 10px;\r\n  z-index: 2;\r\n}\r\n\r\nnav a {\r\n  text-decoration: none;\r\n  color: white;\r\n  padding: 10px;\r\n}\r\n\r\nnav span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#logo {\r\n  text-transform: uppercase;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n}\r\n\r\n#mainContent {\r\n  margin-top: 50px;\r\n  display: flex;\r\n}\r\n\r\naside {\r\n  width: 200px;\r\n  border-right: 1px #CCCCCC solid;\r\n  font-size: 1.2em;\r\n  padding-left: 20px;\r\n}\r\n\r\naside ul {\r\n  padding: 0 0 15px 0;\r\n}\r\n\r\naside li {\r\n  list-style-type: none;\r\n  height: 40px;\r\n}\r\n\r\naside a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\naside span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content {\r\n  padding: 10px 20px;\r\n  margin-left: 20px;\r\n  width: calc(100vw - 200px);\r\n  min-height: calc(100vh - 50px);\r\n}\r\n\r\n#content button {\r\n  color: white;\r\n  background: var(--themeColor);\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n#content button:active {\r\n  transform: scale(.98);\r\n}\r\n\r\n#content .material-icons-outlined {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content ul {\r\n  margin-left: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n#content li {\r\n  list-style-type: none;\r\n  padding-top: 10px;\r\n}\r\n\r\n#content a {\r\n  cursor: pointer;\r\n}\r\n\r\nfooter {\r\n  background: #CCCCCC;\r\n  height: 50px;\r\n  width: 100%;\r\n  padding: 15px;\r\n  text-align: center;\r\n  font-size: .8em;\r\n}\r\n\r\nfooter a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\nfooter span {\r\n  vertical-align: top;\r\n}\r\n\r\n#githubLogo {\r\n  height: 14px;\r\n  width: 14px;\r\n  display: inline-block;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-size: contain;\r\n}\r\n\r\n.modal {\r\n  display: none;\r\n  position: absolute;\r\n  top: 15vh;\r\n  left: calc((100vw - 50vh)/2);\r\n  height: 60vh;\r\n  width: 50vh;\r\n  background: white;\r\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\r\n  border: 1px solid;\r\n  z-index: 3;\r\n}\r\n\r\n.modalContent {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n\r\n}\r\n\r\n.closeModal {\r\n  position: absolute;\r\n  right: 5px;\r\n  top: 5px;\r\n  cursor: pointer;\r\n}\r\n\r\n.modalForm {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n\r\ninput[type=text], input[type=date], input[type=checkbox], select {\r\n  background: #CCCCCC;\r\n  color: black;\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px;\r\n}\r\n\r\ninput[type=submit] {\r\n  color: white;\r\n  background: var(--themeColor);\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\ninput[type=submit]:active {\r\n  transform: scale(.98);\r\n}\r\n\r\ninput::placeholder {\r\n  color: black;\r\n  font-size: .9em;\r\n}\r\n\r\n#deleteAll {\r\n  color: white;\r\n  font-weight: bold;\r\n  background: red;\r\n  padding: 4px;\r\n  border: 0;\r\n  border-radius: 4px;\r\n  font-size: .8em;\r\n  margin-left: 10px;\r\n  cursor: pointer;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -603,10 +603,12 @@ module.exports = __webpack_require__.p + "0035c307a36c17babb8d.png";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "renderProject": () => (/* binding */ renderProject),
 /* harmony export */   "renderProjectsMenu": () => (/* binding */ renderProjectsMenu),
 /* harmony export */   "renderNewTask": () => (/* binding */ renderNewTask),
 /* harmony export */   "renderNewProject": () => (/* binding */ renderNewProject),
-/* harmony export */   "renderSettings": () => (/* binding */ renderSettings)
+/* harmony export */   "renderSettings": () => (/* binding */ renderSettings),
+/* harmony export */   "changeTheme": () => (/* binding */ changeTheme)
 /* harmony export */ });
 /* harmony import */ var _application_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23);
 
@@ -638,6 +640,7 @@ const render = (link) => {
   var tasks = funcs[link]();
 
   renderHelper(tasks);
+  localStorage.setItem('currentPage', link);
 }
 
 const renderProject = (id) => {
@@ -646,11 +649,27 @@ const renderProject = (id) => {
 
   var h1 = document.createElement('h1');
   h1.textContent = name;
+  if (name !== 'Default') {
+    var deleteProjectButton = document.createElement('button');
+    deleteProjectButton.style = 'padding: 4px; font-size: .4em; margin-left: 15px; border-radius: 4px; background: red;'
+    deleteProjectButton.textContent = 'Delete project';
+    h1.appendChild(deleteProjectButton);
+
+    deleteProjectButton.addEventListener('click', () => {
+      if (confirm('Are you sure?')) {
+        _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteProject(name);
+        renderProject('Default');
+        renderProjectsMenu();
+      }
+    });
+  }
+
   content.appendChild(h1);
 
   var tasks = _application_js__WEBPACK_IMPORTED_MODULE_0__.projectTasks(name);
 
   renderHelper(tasks);
+  localStorage.setItem('currentPage', id);
 }
 
 const renderHelper = (tasks) => {
@@ -679,7 +698,7 @@ const renderHelper = (tasks) => {
     span.style['font-size'] = '1.2em'
     task.important ? span.style.display = 'inline-block' : span.style.display = 'none';
     let button = document.createElement('button');
-    button.style = 'padding: 4px; font-size: .7em; margin-left: 10px; border-radius: 4px;'
+    button.style = 'padding: 4px; font-size: .7em; margin-left: 10px; border-radius: 4px; background: red;'
     button.textContent = 'Delete';
     li.appendChild(a);
     li.appendChild(span);
@@ -688,7 +707,6 @@ const renderHelper = (tasks) => {
 
     checkbox.addEventListener('change', () => {
       _application_js__WEBPACK_IMPORTED_MODULE_0__.changeStatus(task);
-      console.log(task.complete);
       task.complete ?
       a.style['text-decoration'] = 'line-through' :
       a.style['text-decoration'] = 'none';
@@ -697,10 +715,12 @@ const renderHelper = (tasks) => {
 
     a.addEventListener('click', () => renderEditTask(task));
     button.addEventListener('click', () => {
-      if (confirm('Are you sure?')) _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteTask(task);
-      render('today');
+      if (confirm('Are you sure?')) {
+        _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteTask(task);
+        let page = localStorage.getItem('currentPage');
+        /project\d+/.test(page) ? renderProject(page) : render(page);
       }
-    );
+  });
 
   })
   }
@@ -708,6 +728,7 @@ const renderHelper = (tasks) => {
 
   var b = document.createElement('button');
   b.classList.add('newTaskButton');
+  b.id = 'newTaskButton';
   b.innerHTML = 'New task <span class="material-icons-outlined">add_circle_outline</span>';
   content.appendChild(b);
 
@@ -715,6 +736,7 @@ const renderHelper = (tasks) => {
 }
 
 const renderProjectsMenu = () => {
+  while (projectList.childElementCount > 1) projectList.lastChild.remove();
   var projects = _application_js__WEBPACK_IMPORTED_MODULE_0__.allProjects();
   projects.forEach((project, i) => {
     let li = document.createElement('li');
@@ -746,7 +768,6 @@ const renderNewTask = () => {
      let important = form.elements.important.checked;
      let project = form.elements.project.value;
      _application_js__WEBPACK_IMPORTED_MODULE_0__.createTask(title, dueDate, important, project);
-     return false;
    });
 }
 
@@ -781,7 +802,6 @@ const renderEditTask = (task) => {
      });
      if (form.elements.important.checked !== imp) changed['important'] = form.elements.important.checked;
      _application_js__WEBPACK_IMPORTED_MODULE_0__.updateTask(task, changed);
-     return false;
    });
 }
 
@@ -791,7 +811,6 @@ const renderNewProject = () => {
   form.addEventListener('submit', () => {
     let title = form.elements.title.value;
     _application_js__WEBPACK_IMPORTED_MODULE_0__.createProject(title);
-    return false;
   });
 }
 
@@ -801,21 +820,21 @@ const renderSettings = () => {
   form.addEventListener('submit', () => {
     let color = document.querySelector('input[name="theme"]:checked').value;
     changeTheme(color);
-    event.preventDefault()
-    return false;
   });
   const deleteAllButton = document.querySelector('#deleteAll');
   deleteAllButton.addEventListener('click', () => {
-    if (confirm('Are you sure?')) _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteAll(); render(today);
+    if (confirm('Are you sure?')) {
+      _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteAll();
+      render('today');
+    }
   })
 }
 
 const changeTheme = (color) => {
-  const toChange = [ document.querySelector('nav'),
-                     document.querySelector('#content>button'),
-                     document.querySelector('input[type=submit]') ]
+  let root = document.documentElement;
   const COLORS = { red: '#F03C5D', blue: '#4074cc', green: '#23c175' }
-  toChange.forEach(el => el.style.background = COLORS[color]);
+  root.style.setProperty('--themeColor', COLORS[color]);
+  localStorage.setItem('themeColor', color);
 }
 
 
@@ -838,6 +857,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "projectTasks": () => (/* binding */ projectTasks),
 /* harmony export */   "allProjects": () => (/* binding */ allProjects),
 /* harmony export */   "createProject": () => (/* binding */ createProject),
+/* harmony export */   "deleteProject": () => (/* binding */ deleteProject),
 /* harmony export */   "deleteAll": () => (/* binding */ deleteAll)
 /* harmony export */ });
 /* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
@@ -894,7 +914,7 @@ function updateTask(task, properties) {
 }
 
 function deleteTask(task) {
-  tasks.splice(task.id, 1);
+  tasks.splice(tasks.indexOf(task), 1);
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
@@ -928,6 +948,13 @@ function allProjects() {
 
 function createProject(title) {
   projects.push(title);
+  localStorage.setItem('projects', JSON.stringify(projects));
+}
+
+function deleteProject(project) {
+  tasks.filter(task => task.project === project).forEach(task => task.project = 'Default');
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  projects.splice(projects.indexOf(project), 1);
   localStorage.setItem('projects', JSON.stringify(projects));
 }
 
@@ -1788,7 +1815,10 @@ window.onclick = function(event) {
   else if (event.target == projectModal) projectModal.style.display = "none";
 }
 
-;(0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)('today');
+let color = localStorage.getItem('themeColor') || 'red';
+let page = localStorage.getItem('currentPage') || 'today';
+/project\d+/.test(page) ? (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.renderProject)(page) : (0,_render_js__WEBPACK_IMPORTED_MODULE_2__.render)(page);
+(0,_render_js__WEBPACK_IMPORTED_MODULE_2__.changeTheme)(color);
 
 })();
 

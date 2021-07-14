@@ -1,6 +1,6 @@
 import 'material-icons/iconfont/material-icons.css';
 import './style.css';
-import { render, renderNewTask, renderNewProject, renderProjectsMenu, renderSettings } from './render.js';
+import { render, renderProject, renderNewTask, renderNewProject, renderProjectsMenu, renderSettings, changeTheme } from './render.js';
 
 const content = document.querySelector('#content');
 const sidelinks = document.querySelectorAll('.sidelink');
@@ -39,4 +39,7 @@ window.onclick = function(event) {
   else if (event.target == projectModal) projectModal.style.display = "none";
 }
 
-render('today');
+let color = localStorage.getItem('themeColor') || 'red';
+let page = localStorage.getItem('currentPage') || 'today';
+/project\d+/.test(page) ? renderProject(page) : render(page);
+changeTheme(color);

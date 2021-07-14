@@ -49,7 +49,7 @@ function updateTask(task, properties) {
 }
 
 function deleteTask(task) {
-  tasks.splice(task.id, 1);
+  tasks.splice(tasks.indexOf(task), 1);
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
@@ -86,6 +86,13 @@ function createProject(title) {
   localStorage.setItem('projects', JSON.stringify(projects));
 }
 
+function deleteProject(project) {
+  tasks.filter(task => task.project === project).forEach(task => task.project = 'Default');
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  projects.splice(projects.indexOf(project), 1);
+  localStorage.setItem('projects', JSON.stringify(projects));
+}
+
 function deleteAll() {
   localStorage.setItem('tasks', JSON.stringify([]));
   localStorage.setItem('projects', JSON.stringify(['Default']));
@@ -102,4 +109,5 @@ export { changeStatus,
          projectTasks,
          allProjects,
          createProject,
+         deleteProject,
          deleteAll }
