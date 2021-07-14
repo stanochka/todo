@@ -1,5 +1,5 @@
 # :ballot_box_with_check:ToDo List 
-Made in javascript, built with Webpack.
+Made in Javascript, built with Webpack.
 
 - Add/edit/delete tasks;
 - Mark tasks as completed/cancel complection;
