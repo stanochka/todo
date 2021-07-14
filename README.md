@@ -11,6 +11,6 @@ Made in javascript, built with Webpack.
 
 Webpack libraries used: 
 - date-fns;
-- material-icons;
+- material-icons.
 
 [Demo](https://epic-mayer-120f29.netlify.app/)
