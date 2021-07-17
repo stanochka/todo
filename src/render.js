@@ -38,13 +38,13 @@ const renderProject = (id) => {
   h1.textContent = name;
   if (name !== 'Default') {
     var deleteProjectButton = document.createElement('button');
-    deleteProjectButton.style = 'padding: 4px; font-size: .4em; margin-left: 15px; border-radius: 4px; background: red;'
-    deleteProjectButton.innerHTML = '<span class="material-icons-outlined">delete</span>';
+    deleteProjectButton.style = 'vertical-align: middle; font-size: .6rem; padding: 2px; margin: 15px; border-radius: 4px; background: red;'
+    deleteProjectButton.innerHTML = '<span class="material-icons-outlined" style="font-size: 16px;">delete</span>';
     h1.appendChild(deleteProjectButton);
 
     deleteProjectButton.addEventListener('click', () => {
       app.deleteProject(name);
-      renderProject('Default');
+      renderProject('project0');
       renderProjectsMenu();
     });
   }
@@ -83,8 +83,8 @@ const renderHelper = (tasks) => {
     span.style['font-size'] = '1.2em'
     task.important ? span.style.display = 'inline-block' : span.style.display = 'none';
     let button = document.createElement('button');
-    button.style = 'padding: 4px; margin-left: 10px; border-radius: 4px; background: red;'
-    button.innerHTML = '<span class="material-icons-outlined">delete</span>';
+    button.style = 'vertical-align: middle; font-size: .8rem; padding: 2px; margin: 10px; border-radius: 4px; background: red;'
+    button.innerHTML = '<span class="material-icons-outlined" style="font-size: 16px; vertical-align: middle;">delete</span>';
     li.appendChild(a);
     li.appendChild(span);
     li.appendChild(button);
