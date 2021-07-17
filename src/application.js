@@ -38,18 +38,15 @@ function createTask(title, dueDate=(new Date()), important=false, project=projec
 }
 
 function updateTask(task, properties) {
+  let t = tasks.filter(t => t.id == task.id)[0];
   Object.keys(properties).forEach(property => {
-    task[property] = properties[property];
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-    if (property === 'project' && !projects.includes(task.project)) {
-      projects.push(task.project);
-      localStorage.setItem('projects', JSON.stringify(projects));
-    }
+    t[property] = properties[property];
   });
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 function deleteTask(task) {
-  tasks.splice(tasks.indexOf(task), 1);
+  tasks = tasks.filter(t => t.id !== task.id);
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 

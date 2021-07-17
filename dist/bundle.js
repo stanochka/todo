@@ -585,7 +585,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_GitHub_Mark_32px_png__WEBPACK_IMPORTED_MODULE_2__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n  --themeColor: #F03C5D;\r\n\r\n}\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  width: 100%;\r\n  height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: 'Inconsolata', monospace;\r\n}\r\n\r\nnav {\r\n  position: fixed;\r\n  top: 0;\r\n  height: 50px;\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: flex-start;\r\n  background-color: var(--themeColor);\r\n  padding: 10px;\r\n  z-index: 2;\r\n}\r\n\r\nnav a {\r\n  text-decoration: none;\r\n  color: white;\r\n  padding: 10px;\r\n}\r\n\r\nnav span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#logo {\r\n  text-transform: uppercase;\r\n  font-weight: bold;\r\n  font-size: 1.3em;\r\n}\r\n\r\n#mainContent {\r\n  margin-top: 50px;\r\n  display: flex;\r\n}\r\n\r\naside {\r\n  width: 200px;\r\n  border-right: 1px #CCCCCC solid;\r\n  font-size: 1.2em;\r\n  padding-left: 20px;\r\n}\r\n\r\naside ul {\r\n  padding: 0 0 15px 0;\r\n}\r\n\r\naside li {\r\n  list-style-type: none;\r\n  height: 40px;\r\n}\r\n\r\naside a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\naside span {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content {\r\n  padding: 10px 20px;\r\n  margin-left: 20px;\r\n  width: calc(100vw - 200px);\r\n  min-height: calc(100vh - 50px);\r\n}\r\n\r\n#content button {\r\n  color: white;\r\n  background: var(--themeColor);\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n#content button:active {\r\n  transform: scale(.98);\r\n}\r\n\r\n#content .material-icons-outlined {\r\n  vertical-align: middle;\r\n}\r\n\r\n#content ul {\r\n  margin-left: 0;\r\n  padding-left: 0;\r\n}\r\n\r\n#content li {\r\n  list-style-type: none;\r\n  padding-top: 10px;\r\n}\r\n\r\n#content a {\r\n  cursor: pointer;\r\n}\r\n\r\nfooter {\r\n  background: #CCCCCC;\r\n  height: 50px;\r\n  width: 100%;\r\n  padding: 15px;\r\n  text-align: center;\r\n  font-size: .8em;\r\n}\r\n\r\nfooter a {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n\r\nfooter span {\r\n  vertical-align: top;\r\n}\r\n\r\n#githubLogo {\r\n  height: 14px;\r\n  width: 14px;\r\n  display: inline-block;\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  background-size: contain;\r\n}\r\n\r\n.modal {\r\n  display: none;\r\n  position: absolute;\r\n  top: 15vh;\r\n  left: calc((100vw - 50vh)/2);\r\n  height: 60vh;\r\n  width: 50vh;\r\n  background: white;\r\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\r\n  border: 1px solid;\r\n  z-index: 3;\r\n}\r\n\r\n.modalContent {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n\r\n}\r\n\r\n.closeModal {\r\n  position: absolute;\r\n  right: 5px;\r\n  top: 5px;\r\n  cursor: pointer;\r\n}\r\n\r\n.modalForm {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n\r\ninput[type=text], input[type=date], input[type=checkbox], select {\r\n  background: #CCCCCC;\r\n  color: black;\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px;\r\n}\r\n\r\ninput[type=submit] {\r\n  color: white;\r\n  background: var(--themeColor);\r\n  padding: 10px;\r\n  border: 0;\r\n  border-radius: 7px;\r\n  font-size: 1em;\r\n  margin-top: 20px;\r\n  cursor: pointer;\r\n}\r\n\r\ninput[type=submit]:active {\r\n  transform: scale(.98);\r\n}\r\n\r\ninput::placeholder {\r\n  color: black;\r\n  font-size: .9em;\r\n}\r\n\r\n#deleteAll {\r\n  color: white;\r\n  font-weight: bold;\r\n  background: red;\r\n  padding: 4px;\r\n  border: 0;\r\n  border-radius: 4px;\r\n  font-size: .8em;\r\n  margin-left: 10px;\r\n  cursor: pointer;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --themeColor: #F03C5D;\n\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  width: 100%;\n  height: 100vh;\n  margin: 0;\n  padding: 0;\n  font-family: 'Inconsolata', monospace;\n}\n\nnav {\n  position: fixed;\n  top: 0;\n  height: 50px;\n  width: 100%;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  background-color: var(--themeColor);\n  padding: 10px;\n  z-index: 2;\n}\n\nnav a {\n  text-decoration: none;\n  color: white;\n  padding: 10px;\n}\n\nnav span {\n  vertical-align: middle;\n}\n\n#logo {\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1.3em;\n}\n\n#mainContent {\n  margin-top: 50px;\n  display: flex;\n}\n\naside {\n  width: 200px;\n  border-right: 1px #CCCCCC solid;\n  font-size: 1.2em;\n  padding-left: 20px;\n}\n\naside ul {\n  padding: 0 0 15px 0;\n}\n\naside li {\n  list-style-type: none;\n  height: 40px;\n}\n\naside a {\n  text-decoration: none;\n  color: black;\n}\n\naside span {\n  vertical-align: middle;\n}\n\n#content {\n  padding: 10px 20px;\n  margin-left: 20px;\n  width: calc(100vw - 200px);\n  min-height: calc(100vh - 50px);\n}\n\n#content button {\n  color: white;\n  background: var(--themeColor);\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n  cursor: pointer;\n}\n\n#content button:active {\n  transform: scale(.98);\n}\n\n#content .material-icons-outlined {\n  vertical-align: middle;\n}\n\n#content ul {\n  margin-left: 0;\n  padding-left: 0;\n}\n\n#content li {\n  list-style-type: none;\n  padding-top: 10px;\n}\n\n#content a {\n  cursor: pointer;\n}\n\nfooter {\n  background: #CCCCCC;\n  height: 50px;\n  width: 100%;\n  padding: 15px;\n  text-align: center;\n  font-size: .8em;\n}\n\nfooter a {\n  text-decoration: none;\n  color: black;\n}\n\nfooter span {\n  vertical-align: top;\n}\n\n#githubLogo {\n  height: 14px;\n  width: 14px;\n  display: inline-block;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n}\n\n.modal {\n  display: none;\n  position: absolute;\n  top: 15vh;\n  left: calc((100vw - 50vh)/2);\n  height: 60vh;\n  width: 50vh;\n  background: white;\n  box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.6);\n  border: 1px solid;\n  z-index: 3;\n}\n\n.modalContent {\n  width: 100%;\n  height: 100%;\n  position: relative;\n\n}\n\n.closeModal {\n  position: absolute;\n  right: 5px;\n  top: 5px;\n  cursor: pointer;\n}\n\n.modalForm {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n\ninput[type=text], input[type=date], input[type=checkbox], select {\n  background: #CCCCCC;\n  color: black;\n  border: 0;\n  padding: 10px;\n  margin: 10px;\n}\n\ninput[type=submit] {\n  color: white;\n  background: var(--themeColor);\n  padding: 10px;\n  border: 0;\n  border-radius: 7px;\n  font-size: 1em;\n  margin-top: 20px;\n  cursor: pointer;\n}\n\ninput[type=submit]:active {\n  transform: scale(.98);\n}\n\ninput::placeholder {\n  color: black;\n  font-size: .9em;\n}\n\n#deleteAll {\n  color: white;\n  font-weight: bold;\n  background: red;\n  padding: 4px;\n  border: 0;\n  border-radius: 4px;\n  font-size: .8em;\n  margin-left: 10px;\n  cursor: pointer;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -652,15 +652,13 @@ const renderProject = (id) => {
   if (name !== 'Default') {
     var deleteProjectButton = document.createElement('button');
     deleteProjectButton.style = 'padding: 4px; font-size: .4em; margin-left: 15px; border-radius: 4px; background: red;'
-    deleteProjectButton.textContent = 'Delete project';
+    deleteProjectButton.innerHTML = '<span class="material-icons-outlined">delete</span>';
     h1.appendChild(deleteProjectButton);
 
     deleteProjectButton.addEventListener('click', () => {
-      if (confirm('Are you sure?')) {
-        _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteProject(name);
-        renderProject('Default');
-        renderProjectsMenu();
-      }
+      _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteProject(name);
+      renderProject('Default');
+      renderProjectsMenu();
     });
   }
 
@@ -684,7 +682,7 @@ const renderHelper = (tasks) => {
     li.appendChild(checkbox);
     let a = document.createElement('a');
     task.dueDate ?
-    a.textContent = `${task.title} due to ${new Date(task.dueDate).toDateString()}` :
+    a.textContent = `${task.title} - due to ${new Date(task.dueDate).toDateString()}` :
     a.textContent = `${task.title}`;
     if (task.complete) {
       a.style['text-decoration'] = 'line-through';
@@ -698,8 +696,8 @@ const renderHelper = (tasks) => {
     span.style['font-size'] = '1.2em'
     task.important ? span.style.display = 'inline-block' : span.style.display = 'none';
     let button = document.createElement('button');
-    button.style = 'padding: 4px; font-size: .7em; margin-left: 10px; border-radius: 4px; background: red;'
-    button.textContent = 'Delete';
+    button.style = 'padding: 4px; margin-left: 10px; border-radius: 4px; background: red;'
+    button.innerHTML = '<span class="material-icons-outlined">delete</span>';
     li.appendChild(a);
     li.appendChild(span);
     li.appendChild(button);
@@ -713,13 +711,15 @@ const renderHelper = (tasks) => {
       }
     );
 
-    a.addEventListener('click', () => renderEditTask(task));
+    a.addEventListener('click', () => {
+      renderEditTask(task);
+      let page = localStorage.getItem('currentPage') || 'today';
+      /project\d+/.test(page) ? renderProject(page) : render(page);
+    });
     button.addEventListener('click', () => {
-      if (confirm('Are you sure?')) {
-        _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteTask(task);
-        let page = localStorage.getItem('currentPage');
-        /project\d+/.test(page) ? renderProject(page) : render(page);
-      }
+      _application_js__WEBPACK_IMPORTED_MODULE_0__.deleteTask(task);
+      let page = localStorage.getItem('currentPage');
+      /project\d+/.test(page) ? renderProject(page) : render(page);
   });
 
   })
@@ -813,7 +813,7 @@ const renderNewProject = () => {
   form.addEventListener('submit', () => {
     let title = form.elements.title.value;
     _application_js__WEBPACK_IMPORTED_MODULE_0__.createProject(title);
-    return false;
+    renderProjectsMenu();
   });
 }
 
@@ -907,18 +907,15 @@ function createTask(title, dueDate=(new Date()), important=false, project=projec
 }
 
 function updateTask(task, properties) {
+  let t = tasks.filter(t => t.id == task.id)[0];
   Object.keys(properties).forEach(property => {
-    task[property] = properties[property];
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-    if (property === 'project' && !projects.includes(task.project)) {
-      projects.push(task.project);
-      localStorage.setItem('projects', JSON.stringify(projects));
-    }
+    t[property] = properties[property];
   });
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 function deleteTask(task) {
-  tasks.splice(tasks.indexOf(task), 1);
+  tasks = tasks.filter(t => t.id !== task.id);
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 

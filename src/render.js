@@ -39,15 +39,13 @@ const renderProject = (id) => {
   if (name !== 'Default') {
     var deleteProjectButton = document.createElement('button');
     deleteProjectButton.style = 'padding: 4px; font-size: .4em; margin-left: 15px; border-radius: 4px; background: red;'
-    deleteProjectButton.textContent = 'Delete project';
+    deleteProjectButton.innerHTML = '<span class="material-icons-outlined">delete</span>';
     h1.appendChild(deleteProjectButton);
 
     deleteProjectButton.addEventListener('click', () => {
-      if (confirm('Are you sure?')) {
-        app.deleteProject(name);
-        renderProject('Default');
-        renderProjectsMenu();
-      }
+      app.deleteProject(name);
+      renderProject('Default');
+      renderProjectsMenu();
     });
   }
 
@@ -71,7 +69,7 @@ const renderHelper = (tasks) => {
     li.appendChild(checkbox);
     let a = document.createElement('a');
     task.dueDate ?
-    a.textContent = `${task.title} due to ${new Date(task.dueDate).toDateString()}` :
+    a.textContent = `${task.title} - due to ${new Date(task.dueDate).toDateString()}` :
     a.textContent = `${task.title}`;
     if (task.complete) {
       a.style['text-decoration'] = 'line-through';
@@ -85,8 +83,8 @@ const renderHelper = (tasks) => {
     span.style['font-size'] = '1.2em'
     task.important ? span.style.display = 'inline-block' : span.style.display = 'none';
     let button = document.createElement('button');
-    button.style = 'padding: 4px; font-size: .7em; margin-left: 10px; border-radius: 4px; background: red;'
-    button.textContent = 'Delete';
+    button.style = 'padding: 4px; margin-left: 10px; border-radius: 4px; background: red;'
+    button.innerHTML = '<span class="material-icons-outlined">delete</span>';
     li.appendChild(a);
     li.appendChild(span);
     li.appendChild(button);
@@ -100,13 +98,15 @@ const renderHelper = (tasks) => {
       }
     );
 
-    a.addEventListener('click', () => renderEditTask(task));
+    a.addEventListener('click', () => {
+      renderEditTask(task);
+      let page = localStorage.getItem('currentPage') || 'today';
+      /project\d+/.test(page) ? renderProject(page) : render(page);
+    });
     button.addEventListener('click', () => {
-      if (confirm('Are you sure?')) {
-        app.deleteTask(task);
-        let page = localStorage.getItem('currentPage');
-        /project\d+/.test(page) ? renderProject(page) : render(page);
-      }
+      app.deleteTask(task);
+      let page = localStorage.getItem('currentPage');
+      /project\d+/.test(page) ? renderProject(page) : render(page);
   });
 
   })
@@ -200,7 +200,7 @@ const renderNewProject = () => {
   form.addEventListener('submit', () => {
     let title = form.elements.title.value;
     app.createProject(title);
-    return false;
+    renderProjectsMenu();
   });
 }
 
