@@ -926,7 +926,7 @@ function todayTasks() {
 
 function weekTasks() {
   tasks = JSON.parse(localStorage.getItem('tasks'));
-  return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_2__.default)((0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate)))
+  return tasks.filter(task => (0,date_fns__WEBPACK_IMPORTED_MODULE_2__.default)((0,date_fns__WEBPACK_IMPORTED_MODULE_1__.default)(task.dueDate), { weekStartsOn: 1 }))
 }
 
 function allTasks() {

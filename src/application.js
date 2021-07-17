@@ -57,7 +57,7 @@ function todayTasks() {
 
 function weekTasks() {
   tasks = JSON.parse(localStorage.getItem('tasks'));
-  return tasks.filter(task => isThisWeek(parseISO(task.dueDate)))
+  return tasks.filter(task => isThisWeek(parseISO(task.dueDate), { weekStartsOn: 1 }))
 }
 
 function allTasks() {
