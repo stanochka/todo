@@ -2,7 +2,6 @@ import 'material-icons/iconfont/material-icons.css';
 import './style.css';
 import { render, renderProject, renderNewTask, renderNewProject, renderProjectsMenu, renderSettings, changeTheme } from './render.js';
 
-const content = document.querySelector('#content');
 const sidelinks = document.querySelectorAll('.sidelink');
 const logo = document.querySelector('#logo');
 const ntb = document.querySelector('#newtask');
